@@ -1,0 +1,14 @@
+body {
+    perspective: 1000px;
+}
+
+header {
+    height: 20vh;
+}
+main {
+    height: 200vh;
+}
+ul {
+    padding: 0;
+    list-style-type: none;
+}
