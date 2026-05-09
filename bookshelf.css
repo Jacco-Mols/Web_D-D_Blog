@@ -6,47 +6,53 @@
     justify-content: center;
 }
 
+/* surfaces on the outside */
 .bookshelf-side {
     transform-style: preserve-3d;
     position: absolute;
-}
-
-.bookshelf-front, .bookshelf-back, .bookshelf-left, .bookshelf-right {
-    height: 50rem;
-}
-
-.bookshelf-front, .bookshelf-back, .bookshelf-top, .bookshelf-bottom {
-    width: 30rem;
 }
 
 .bookshelf-top {
     transform-origin: top;
     transform: rotateX(90deg) translateY(-10rem);
     background-color: blue;
+    width: 30rem;
+    height: 20rem;
 }
 
 .bookshelf-bottom {
     transform: rotateX(-90deg) translateZ(40rem);
     background-color: yellow;
+    width: 30rem;
+    height: 20rem;
 }
 
 .bookshelf-front {
     transform: rotateX(0deg) translateZ(10rem);
+    perspective: 1000px;
+    height: 50rem;
+    width: 30rem;
 }
 
 .bookshelf-back {
     transform: rotateY(180deg) translateZ(10rem);
     background-color: black;
+    height: 50rem;
+    width: 30rem;
 }
 
 .bookshelf-left {
     transform: rotateY(-90deg) translateZ(15rem);
     background-color: red;
+    height: 50rem;
+    width: 20rem;
 }
 
 .bookshelf-right {
     transform: rotateY(90deg) translateZ(15rem);
     background-color: purple;
+    height: 50rem;
+    width: 20rem;
 }
 
 /* front corners */
@@ -59,7 +65,7 @@
 .bookshelf-front-side-top {
     transform: rotateX(0deg);
     width: 100%;
-    height: 1rem
+    height: 1rem;
 }
 
 .bookshelf-front-side-left {
@@ -82,6 +88,42 @@
     height: 1rem;
 }
 
+/* surfaces on the inside */
+.inner-side-top {
+    transform-origin: top;
+    transform: rotateX(90deg) translateY(-10rem) translateZ(-1rem);
+    background-color: hotpink;
+    width: 30rem;
+    height: 20rem;
+}
+
+.inner-side-left {
+    transform: rotateY(-90deg) translateZ(14rem);
+    background-color: red;
+    height: 50rem;
+    width: 20rem;
+}
+
+.inner-side-back {
+    transform: rotateY(180deg) translateZ(9rem);
+    background-color: black;
+    height: 50rem;
+    width: 30rem;
+}
+
+.inner-side-right {
+    transform: rotateY(90deg) translateZ(14rem);
+    background-color: purple;
+    height: 50rem;
+    width: 20rem;
+}
+
+.inner-side-bottom {
+    transform: rotateX(-90deg) translateZ(39rem);
+    background-color: yellow;
+    width: 30rem;
+    height: 20rem;
+}
 
 
 /* inside here will be the books */
