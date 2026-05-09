@@ -127,29 +127,34 @@
 }
 
 /* planks */
-.plankcontainer-1 {
-    position: relative;
+.bookshelf-content {
     transform-style: preserve-3d;
-    transform: translateY(9rem)
+    position: relative;
 }
 
-.plankcontainer-2 {
-    position: relative;
-    transform-style: preserve-3d;
-    transform: translateY(24rem)
+.shelf-1 {
+    transform: translateY(8rem)
 }
 
-.plankcontainer-3 {
+.shelf-2 {
+    transform: translateY(21rem)
+}
+
+.shelf-3 {
+    transform: translateY(34rem)
+
+}
+
+.plankcontainer-1, .plankcontainer-2, .plankcontainer-3 {
     position: relative;
     transform-style: preserve-3d;
-    transform: translateY(38rem)
 }
 
 .plank-top {
     position: absolute;
     background-color: bisque;
     transform: rotateX(90deg) translateZ(10rem) translateX(-15rem);
-    width: 30rem;
+    width: 29rem;
     height: 20rem;
 }
 
@@ -165,17 +170,49 @@
     position: absolute;
     background-color: bisque;
     transform: rotateX(90deg) translateZ(8rem) translateX(-15rem);
-    width: 30rem;
+    width: 29rem;
     height: 20rem;
 }
 
 
+.plankcontainer-1 {
+    .plank-top {
+       transform: rotateX(90deg) translateZ(10rem) translateX(-13rem)
+    }
 
-/* inside here will be the books */
-/* .shelf {
-    background-color: black;
-    width: 100%;
-    height: 10rem;
-    display: flex;
-    align-items: end;
-} */
+    .plank-front {
+        transform: rotateY(-180deg) translateZ(-10rem) translateX(46%)
+    }
+
+    .plank-bottom {
+        transform: rotateX(90deg) translateZ(8rem) translateX(-13rem);
+    }
+}
+
+.plankcontainer-2 {
+    .plank-top {
+       transform: rotateX(90deg) translateZ(10rem) translateX(-14rem)
+    }
+
+    .plank-front {
+        transform: rotateY(-180deg) translateZ(-10rem) translateX(49%)
+    }
+
+    .plank-bottom {
+        transform: rotateX(90deg) translateZ(8rem) translateX(-14rem);
+    }
+}
+
+.plankcontainer-3 {
+    .plank-top {
+       transform: rotateX(90deg) translateZ(10rem) translateX(-15rem)
+    }
+
+    .plank-front {
+        transform: rotateY(-180deg) translateZ(-10rem) translateX(51%)
+    }
+
+    .plank-bottom {
+        transform: rotateX(90deg) translateZ(8rem) translateX(-15rem);
+    }
+}

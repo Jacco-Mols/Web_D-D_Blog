@@ -3,7 +3,7 @@ body {
 }
 
 header {
-    height: 200vh;
+    height: 150vh;
 }
 
 main {
@@ -12,5 +12,6 @@ main {
 
 ul {
     padding: 0;
+    margin: 0;
     list-style-type: none;
 }
