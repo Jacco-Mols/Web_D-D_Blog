@@ -130,6 +130,7 @@
 .bookshelf-content {
     transform-style: preserve-3d;
     position: relative;
+    width: 10px;
 }
 
 .shelf-1 {
@@ -142,7 +143,6 @@
 
 .shelf-3 {
     transform: translateY(34rem)
-
 }
 
 .plankcontainer-1, .plankcontainer-2, .plankcontainer-3 {
@@ -173,7 +173,6 @@
     width: 29rem;
     height: 20rem;
 }
-
 
 .plankcontainer-1 {
     .plank-top {
