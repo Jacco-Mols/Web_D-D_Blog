@@ -1,9 +1,13 @@
 .bookshelf {
     position: relative;
     transform-style: preserve-3d;
-    transform: rotateY(350deg) rotateX(5deg);
+    transform-origin: center;
     display: flex;
     justify-content: center;
+}
+
+.bookshelf:active {
+    cursor: grabbing;
 }
 
 /* surfaces on the outside */
@@ -29,9 +33,9 @@
 
 .bookshelf-front {
     transform: rotateX(0deg) translateZ(10rem);
-    perspective: 1000px;
     height: 50rem;
     width: 30rem;
+    pointer-events: none;
 }
 
 .bookshelf-back {

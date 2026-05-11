@@ -1,13 +1,14 @@
 body {
     perspective: 1000px;
+    /* overflow: hidden; */
 }
 
 header {
-    height: 150vh;
+    height: 20vh;
 }
 
 main {
-    height: 200vh;
+    height: 120vh;
 }
 
 ul {
