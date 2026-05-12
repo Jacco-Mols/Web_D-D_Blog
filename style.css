@@ -6,8 +6,11 @@
     --darkpurple: #592049;
     --darkerpurple: #150511;
     --blue: #5E8BED;
+    --darkblue: #4572d2;
     --yellow: #FDB965;
+    --darkyellow: #df9e4e;
     --green: #82C5BE;
+    --darkgreen: #60a7a0;
     --pink: #FE8ABD;
     --white: #f9f5f5;
 
@@ -17,10 +20,13 @@
     --bookshelfshadow: var(--darkpurple);
     --bookshelfdarkshadow: var(--darkerpurple);
     --book1: var(--green);
+    --book1shadow: var(--darkgreen);
     --book2: var(--yellow);
+    --book2shadow: var(--darkyellow);
     --book3: var(--lightred);
     --book4: var(--pink);
     --book5: var(--blue);
+    --book5shadow: var(--darkblue);
     --bookpage: var(--white);
 }
 

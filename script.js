@@ -5,10 +5,18 @@ const bookshelf = document.querySelector('.bookshelf');
 let isDragging = false;
 
 let rotateX = 5;
-let rotateY = 5;
+let rotateY = 15;
 
 let prevMouseX = 0;
 let prevMouseY = 0;
+
+function updateRotation() {
+    bookshelf.style.transform =
+    `
+    rotateX(${rotateX}deg)
+    rotateY(${rotateY}deg)
+    `;
+};
 
 bookshelf.addEventListener('mousedown', (event) => {
     isDragging = true;
@@ -37,13 +45,8 @@ document.addEventListener('mousemove', (event) => {
     prevMouseY = event.clientY;
 });
 
-function updateRotation() {
-    bookshelf.style.transform =
-    `
-    rotateX(${rotateX}deg)
-    rotateY(${rotateY}deg)
-    `;
-};
+    updateRotation();
+
 
 const openBook = document.querySelector('.detail-book');
 

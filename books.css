@@ -16,12 +16,16 @@
 }
 
 .bookscontainer li span h2 {
-    color: white;
+    color: var(--darkerpurple);
     font-size: 1em;
-    transform: rotate(90deg) translateY(13px);
+    transform: rotate(90deg) translateY(13px) translateX(40px);
     width: 8rem;
     height: 2.8rem;
     margin: 0;
+    align-self: center;
+    justify-self: center;
+    display: flex;
+    justify-content: center;
 }
 
 /* als html veranderd kan dit niet werken!!!! */
@@ -56,7 +60,7 @@
     left: 0;
     width: 5rem;
     height: 8rem;
-    background: var(--book1);
+    background: var(--book1shadow);
     transform-origin: left;
     transform: rotateY(-90deg) translateX(-5rem) translateZ(-2px);
 }
@@ -67,19 +71,60 @@
     right: 0;
     width: 5rem;
     height: 8rem;
-    background: var(--book1);
+    background: var(--book1shadow);
     transform-origin: right;
     transform: rotateY(90deg) translateX(5rem);
 }
 
 .label {
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
     height: 8rem;
     background: var(--book1);
 }
 
+.bookscontainer .book:nth-of-type(5n) {
+    .book-left {
+        background-color: var(--book2shadow);
+    }
+    
+    .book-right {
+        background-color: var(--book2shadow);
+    }
+
+    .label {
+        background-color: var(--book2);
+    }
+}
+
+.bookscontainer .book:nth-of-type(3n) {
+    .book-left {
+        background-color: var(--bookshelf);
+    }
+    
+    .book-right {
+        background-color: var(--bookshelf);
+    }
+
+    .label {
+        background-color: var(--book3);
+    }
+}
+
+.bookscontainer .book:nth-of-type(4n) {
+    .book-left {
+        background-color: var(--book5shadow);
+    }
+    
+    .book-right {
+        background-color: var(--book5shadow);
+    }
+
+    .label {
+        background-color: var(--book5);
+    }
+}
 
 .book:has(.label:hover) {
     cursor: pointer;
@@ -97,6 +142,12 @@
     perspective: 250vw;
     display: flex;
     justify-content: center;
+    align-items: center;
+    justify-self: center;
+    background-color: var(--book1);
+    width: 66vw;
+    height: 48vw;
+    border-radius: 1rem;
 }
 
 .pages {
@@ -117,6 +168,16 @@
     backface-visibility: hidden;
     cursor: pointer;
     overflow: hidden;
+}
+
+.page p {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+/* de kaft */
+.page:has(h3) {
+    
 }
 
 /* right page */
