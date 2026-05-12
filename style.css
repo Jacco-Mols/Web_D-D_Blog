@@ -1,6 +1,32 @@
+:root {
+    --lightpink: #FFDFF4;
+    --darkred: #D05557;
+    --darkerred: #c04749;
+    --lightred: #FF5A5E;
+    --darkpurple: #592049;
+    --darkerpurple: #150511;
+    --blue: #5E8BED;
+    --yellow: #FDB965;
+    --green: #82C5BE;
+    --pink: #FE8ABD;
+    --white: #f9f5f5;
+
+    --bg: var(--lightpink);
+    --bookshelf: var(--darkred);
+    --bookshelflightshadow: var(--darkerred);
+    --bookshelfshadow: var(--darkpurple);
+    --bookshelfdarkshadow: var(--darkerpurple);
+    --book1: var(--green);
+    --book2: var(--yellow);
+    --book3: var(--lightred);
+    --book4: var(--pink);
+    --book5: var(--blue);
+    --bookpage: var(--white);
+}
+
 body {
     perspective: 1000px;
-    /* overflow: hidden; */
+    background-color: var(--bg);
 }
 
 header {

@@ -19,14 +19,14 @@
 .bookshelf-top {
     transform-origin: top;
     transform: rotateX(90deg) translateY(-10rem);
-    background-color: blue;
+    background-color:  var(--bookshelflightshadow);
     width: 30rem;
     height: 20rem;
 }
 
 .bookshelf-bottom {
     transform: rotateX(-90deg) translateZ(40rem);
-    background-color: yellow;
+    background-color: var(--bookshelflightshadow);
     width: 30rem;
     height: 20rem;
 }
@@ -40,28 +40,28 @@
 
 .bookshelf-back {
     transform: rotateY(180deg) translateZ(10rem);
-    background-color: black;
+    background-color:  var(--bookshelflightshadow);
     height: 50rem;
     width: 30rem;
 }
 
 .bookshelf-left {
     transform: rotateY(-90deg) translateZ(15rem);
-    background-color: red;
+    background-color: var(--bookshelf);
     height: 50rem;
     width: 20rem;
 }
 
 .bookshelf-right {
     transform: rotateY(90deg) translateZ(15rem);
-    background-color: purple;
+    background-color: var(--bookshelf);
     height: 50rem;
     width: 20rem;
 }
 
 /* front corners */
 .bookshelf-front-side-top, .bookshelf-front-side-left, .bookshelf-front-side-right, .bookshelf-front-side-bottom {
-    background-color: gray;
+    background-color: var(--bookshelf);
     width: 20px;
     height: 10px;
     position: absolute;
@@ -97,35 +97,35 @@
 .inner-side-top {
     transform-origin: top;
     transform: rotateX(90deg) translateY(-10rem) translateZ(-1rem);
-    background-color: hotpink;
+    background-color: var(--bookshelfdarkshadow);
     width: 30rem;
     height: 20rem;
 }
 
 .inner-side-left {
     transform: rotateY(-90deg) translateZ(14rem);
-    background-color: red;
+    background-color: var(--bookshelfdarkshadow);
     height: 50rem;
     width: 20rem;
 }
 
 .inner-side-back {
     transform: rotateY(180deg) translateZ(9rem);
-    background-color: black;
+    background-color: var(--bookshelfdarkshadow);
     height: 50rem;
     width: 30rem;
 }
 
 .inner-side-right {
     transform: rotateY(90deg) translateZ(14rem);
-    background-color: purple;
+    background-color: var(--bookshelfdarkshadow);
     height: 50rem;
     width: 20rem;
 }
 
 .inner-side-bottom {
     transform: rotateX(-90deg) translateZ(39rem);
-    background-color: yellow;
+    background-color: var(--bookshelfdarkshadow);
     width: 30rem;
     height: 20rem;
 }
@@ -156,7 +156,7 @@
 
 .plank-top {
     position: absolute;
-    background-color: bisque;
+    background-color: var(--bookshelfshadow);
     transform: rotateX(90deg) translateZ(10rem) translateX(-15rem);
     width: 29rem;
     height: 20rem;
@@ -164,7 +164,7 @@
 
 .plank-front {
     position: absolute;
-    background-color: bisque;
+    background-color: var(--bookshelfshadow);
     transform: rotateY(-180deg) translateZ(-10rem) translateX(14rem);
     width: 28rem;
     height: 2rem;
@@ -172,7 +172,7 @@
 
 .plank-bottom {
     position: absolute;
-    background-color: bisque;
+    background-color: var(--bookshelfshadow);
     transform: rotateX(90deg) translateZ(8rem) translateX(-15rem);
     width: 29rem;
     height: 20rem;
@@ -180,7 +180,7 @@
 
 .plankcontainer-1 {
     .plank-top {
-       transform: rotateX(90deg) translateZ(10rem) translateX(-13rem)
+       transform: rotateX(90deg) translateZ(10rem) translateX(-14rem)
     }
 
     .plank-front {
@@ -188,7 +188,7 @@
     }
 
     .plank-bottom {
-        transform: rotateX(90deg) translateZ(8rem) translateX(-13rem);
+        transform: rotateX(90deg) translateZ(8rem) translateX(-14rem);
     }
 }
 

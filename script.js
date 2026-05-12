@@ -43,5 +43,27 @@ function updateRotation() {
     rotateX(${rotateX}deg)
     rotateY(${rotateY}deg)
     `;
-
 }
+
+
+// flipped pages
+// https://codepen.io/captain_anonym0us/pen/ybVbpv?editors=0010
+const pages = document.querySelectorAll(".page");
+
+pages.forEach((page, index) => {
+    if (index % 2 === 0) {
+        page.style.zIndex = pages.length - index;
+    };
+
+    page.pageNum = index + 1;
+
+    page.addEventListener('click', function () {
+        if (this.pageNum % 2 === 0) {
+            this.classList.remove('flipped');
+            this.previousElementSibling?.classList.remove('flipped');
+        } else {
+            this.classList.add('flipped');
+            this.nextElementSibling?.classList.add('flipped');
+        }
+    })
+})

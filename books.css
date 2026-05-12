@@ -18,9 +18,10 @@
 .bookscontainer li span h2 {
     color: white;
     font-size: 1em;
-    transform: rotate(90deg) translateY(32px);
+    transform: rotate(90deg) translateY(13px);
     width: 8rem;
     height: 2.8rem;
+    margin: 0;
 }
 
 /* als html veranderd kan dit niet werken!!!! */
@@ -46,7 +47,7 @@
     height: 5rem;
     transform-origin: top;
     transform: rotateX(90deg) translateY(-5rem);
-    background-color: aqua
+    background-color: var(--bookpage);
 }
 
 .book-left {
@@ -55,7 +56,7 @@
     left: 0;
     width: 5rem;
     height: 8rem;
-    background: rgb(42, 83, 83);
+    background: var(--book1);
     transform-origin: left;
     transform: rotateY(-90deg) translateX(-5rem) translateZ(-2px);
 }
@@ -66,15 +67,17 @@
     right: 0;
     width: 5rem;
     height: 8rem;
-    background: rgb(132, 185, 185);
+    background: var(--book1);
     transform-origin: right;
     transform: rotateY(90deg) translateX(5rem);
 }
 
 .label {
     display: flex;
+    justify-content: center;
+    align-items: center;
     height: 8rem;
-    background: rgb(169, 169, 169);
+    background: var(--book1);
 }
 
 
@@ -87,4 +90,59 @@
 .book:has(.label:active) {
     cursor: pointer;
     transform: rotateX(-20deg);
+}
+
+/* open books */
+.openbook {
+    perspective: 1500px;
+    display: flex;
+    justify-content: center;
+}
+
+.pages {
+    position: relative;
+    width: 37rem;
+    height: 25rem;
+    transform-style: preserve-3d;
+}
+
+.page {
+    position: absolute;
+    top: 0;
+    width: 18.5rem;
+    height: 25rem;
+    background-color: var(--bookpage);
+    transform-origin: left center;
+    transition: transform 1s;
+    backface-visibility: hidden;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+/* right page */
+.page:nth-child(odd) {
+    right: 0;
+    border-radius: 0 8px 8px 0;
+    transform: rotateY(0deg);
+    background-color: var(--bookpage);
+}
+
+/* left page */
+.page:nth-child(even) {
+    left: 0;
+    transform: rotateY(180deg);
+    transform-origin: right center;
+    border-radius: 8px 0 0 8px;
+    background-color: var(--bookpage);
+    pointer-events: none;
+}
+
+.page.flipped:nth-child(odd) {
+    transform: rotateY(-180deg);
+    pointer-events: none;
+}
+
+.page.flipped:nth-child(even) {
+    transform: rotateY(0deg);
+    pointer-events: auto;
 }
