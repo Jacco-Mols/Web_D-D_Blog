@@ -43,7 +43,27 @@ function updateRotation() {
     rotateX(${rotateX}deg)
     rotateY(${rotateY}deg)
     `;
-}
+};
+
+const openBook = document.querySelector('.detail-book');
+
+// opens corrosponding book
+document.addEventListener('click', (event) => {
+    const clickedBook = event.target.closest('.book');
+    if(!clickedBook) return;
+
+    const bookId = clickedBook.dataset.book;
+
+    document.querySelectorAll('.detail-book').forEach(book => book.classList.remove('active'));
+
+    const selectedBook = document.querySelector(`.detail-book[data-book=${bookId}]`);
+
+    selectedBook.classList.add('active');
+});
+
+bookshelf.addEventListener('click', () => {
+    openBook.classList.remove('active');
+})
 
 
 // flipped pages
@@ -66,4 +86,4 @@ pages.forEach((page, index) => {
             this.nextElementSibling?.classList.add('flipped');
         }
     })
-})
+});

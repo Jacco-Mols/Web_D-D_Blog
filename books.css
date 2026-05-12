@@ -146,3 +146,11 @@
     transform: rotateY(0deg);
     pointer-events: auto;
 }
+
+.detail-book {
+    display: none;
+}
+
+.detail-book.active {
+    display: block;
+}
