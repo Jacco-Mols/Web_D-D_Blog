@@ -94,23 +94,23 @@
 
 /* open books */
 .openbook {
-    perspective: 1500px;
+    perspective: 250vw;
     display: flex;
     justify-content: center;
 }
 
 .pages {
     position: relative;
-    width: 37rem;
-    height: 25rem;
+    width: 60vw;
+    height: 44vw;
     transform-style: preserve-3d;
 }
 
 .page {
     position: absolute;
     top: 0;
-    width: 18.5rem;
-    height: 25rem;
+    width: 30vw;
+    height: 44vw;
     background-color: var(--bookpage);
     transform-origin: left center;
     transition: transform 1s;
