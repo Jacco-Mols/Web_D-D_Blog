@@ -309,7 +309,13 @@
 
 /* de kaft */
 .page:has(h3) {
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h3 {
+        font-size: 3em;
+    }
 }
 
 /* right page */
