@@ -12,6 +12,7 @@
     --green: #82C5BE;
     --darkgreen: #60a7a0;
     --pink: #FE8ABD;
+    --darkpink: #dc6599;
     --white: #f9f5f5;
 
     --bg: var(--lightpink);
@@ -25,6 +26,7 @@
     --book2shadow: var(--darkyellow);
     --book3: var(--lightred);
     --book4: var(--pink);
+    --book4shadow: var(--darkpink);
     --book5: var(--blue);
     --book5shadow: var(--darkblue);
     --bookpage: var(--white);

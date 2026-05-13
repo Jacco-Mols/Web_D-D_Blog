@@ -45,7 +45,7 @@ document.addEventListener('mousemove', (event) => {
     prevMouseY = event.clientY;
 });
 
-    updateRotation();
+updateRotation();
 
 
 const openBook = document.querySelector('.detail-book');

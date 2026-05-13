@@ -60,7 +60,7 @@
     left: 0;
     width: 5rem;
     height: 8rem;
-    background: var(--book1shadow);
+    background: var(--book4shadow);
     transform-origin: left;
     transform: rotateY(-90deg) translateX(-5rem) translateZ(-2px);
 }
@@ -71,7 +71,7 @@
     right: 0;
     width: 5rem;
     height: 8rem;
-    background: var(--book1shadow);
+    background: var(--book4shadow);
     transform-origin: right;
     transform: rotateY(90deg) translateX(5rem);
 }
@@ -81,48 +81,180 @@
     justify-content: center;
     align-items: center;
     height: 8rem;
-    background: var(--book1);
+    background: var(--book4);
 }
 
-.bookscontainer .book:nth-of-type(5n) {
-    .book-left {
-        background-color: var(--book2shadow);
-    }
-    
-    .book-right {
-        background-color: var(--book2shadow);
+.shelf-1 {
+    .book:nth-of-type(5n) {
+        .book-left {
+            background-color: var(--book2shadow);
+        }
+        
+        .book-right {
+            background-color: var(--book2shadow);
+        }
+
+        .label {
+            background-color: var(--book2);
+        }
     }
 
-    .label {
-        background-color: var(--book2);
+    .book:nth-of-type(3n) {
+        .book-left {
+            background-color: var(--bookshelf);
+        }
+        
+        .book-right {
+            background-color: var(--bookshelf);
+        }
+
+        .label {
+            background-color: var(--book3);
+        }
+    }
+
+    .book:nth-of-type(4n) {
+        .book-left {
+            background-color: var(--book5shadow);
+        }
+        
+        .book-right {
+            background-color: var(--book5shadow);
+        }
+
+        .label {
+            background-color: var(--book5);
+        }
+    }
+
+    .book:nth-of-type(1) {
+        .book-left {
+            background-color: var(--book1shadow);
+        }
+        
+        .book-right {
+            background-color: var(--book1shadow);
+        }
+
+        .label {
+            background-color: var(--book1);
+        }
     }
 }
 
-.bookscontainer .book:nth-of-type(3n) {
-    .book-left {
-        background-color: var(--bookshelf);
-    }
-    
-    .book-right {
-        background-color: var(--bookshelf);
+.shelf-2 {
+    .book:nth-of-type(1 + 1) {
+        .book-left {
+            background-color: var(--book2shadow);
+        }
+        
+        .book-right {
+            background-color: var(--book2shadow);
+        }
+
+        .label {
+            background-color: var(--book2);
+        }
     }
 
-    .label {
-        background-color: var(--book3);
+    .book:nth-of-type(4n) {
+        .book-left {
+            background-color: var(--bookshelf);
+        }
+        
+        .book-right {
+            background-color: var(--bookshelf);
+        }
+
+        .label {
+            background-color: var(--book3);
+        }
+    }
+
+    .book:nth-of-type(5n) {
+        .book-left {
+            background-color: var(--book5shadow);
+        }
+        
+        .book-right {
+            background-color: var(--book5shadow);
+        }
+
+        .label {
+            background-color: var(--book5);
+        }
+    }
+
+    .book:nth-of-type(3n) {
+        .book-left {
+            background-color: var(--book1shadow);
+        }
+        
+        .book-right {
+            background-color: var(--book1shadow);
+        }
+
+        .label {
+            background-color: var(--book1);
+        }
     }
 }
 
-.bookscontainer .book:nth-of-type(4n) {
-    .book-left {
-        background-color: var(--book5shadow);
-    }
-    
-    .book-right {
-        background-color: var(--book5shadow);
+.shelf-3 {
+    .book:nth-of-type(3n) {
+        .book-left {
+            background-color: var(--book2shadow);
+        }
+        
+        .book-right {
+            background-color: var(--book2shadow);
+        }
+
+        .label {
+            background-color: var(--book2);
+        }
     }
 
-    .label {
-        background-color: var(--book5);
+    .book:nth-of-type(2n) {
+        .book-left {
+            background-color: var(--bookshelf);
+        }
+        
+        .book-right {
+            background-color: var(--bookshelf);
+        }
+
+        .label {
+            background-color: var(--book3);
+        }
+    }
+
+    .book:nth-of-type(4n) {
+        .book-left {
+            background-color: var(--book5shadow);
+        }
+        
+        .book-right {
+            background-color: var(--book5shadow);
+        }
+
+        .label {
+            background-color: var(--book5);
+        }
+    }
+
+    .book:nth-of-type(7) {
+        .book-left {
+            background-color: var(--book1shadow);
+        }
+        
+        .book-right {
+            background-color: var(--book1shadow);
+        }
+
+        .label {
+            background-color: var(--book1);
+        }
     }
 }
 
