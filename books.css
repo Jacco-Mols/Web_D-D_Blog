@@ -307,6 +307,11 @@
     margin-right: 1rem;
 }
 
+.page img {
+    max-width: 100%;
+    width: 20rem;
+}
+
 /* de kaft */
 .page:has(h3) {
     display: flex;

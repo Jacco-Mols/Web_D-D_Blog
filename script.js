@@ -47,7 +47,6 @@ document.addEventListener('mousemove', (event) => {
 
 updateRotation();
 
-
 const openBook = document.querySelector('.detail-book');
 
 // opens corrosponding book
@@ -67,7 +66,6 @@ document.addEventListener('click', (event) => {
 bookshelf.addEventListener('click', () => {
     openBook.classList.remove('active');
 })
-
 
 // flipped pages
 // https://codepen.io/captain_anonym0us/pen/ybVbpv?editors=0010
