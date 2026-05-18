@@ -4,6 +4,7 @@
     transform-origin: center;
     display: flex;
     justify-content: center;
+    transform: scale(2);
 }
 
 .bookshelf:active {
@@ -217,5 +218,16 @@
 
     .plank-bottom {
         transform: rotateX(90deg) translateZ(8rem) translateX(-15rem);
+    }
+}
+
+
+@media(max-width: 600px) {
+    .plankcontainer-1, .plankcontainer-2, .plankcontainer-3 {
+        display: none;
+    }
+    
+    .bookshelf-side {
+        display: none;
     }
 }

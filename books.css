@@ -358,3 +358,18 @@
 .detail-book.active {
     display: block;
 }
+
+
+@media(max-width: 600px) {
+    .bookshelf-content {
+        transform: translateX(-49%) translateZ(7rem) rotateZ(-90deg);
+    }
+
+    .shelf-2 {
+        transform: translateX(-49%) translateY(27rem) rotateZ(-90deg);
+    }
+
+    .shelf-3 {
+        transform: translateX(-49%) translateY(54rem) rotateZ(-90deg);
+    }
+}
