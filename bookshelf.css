@@ -223,6 +223,11 @@
 
 
 @media(max-width: 600px) {
+
+    header {
+        height: 10rem;
+    }
+
     .plankcontainer-1, .plankcontainer-2, .plankcontainer-3 {
         display: none;
     }

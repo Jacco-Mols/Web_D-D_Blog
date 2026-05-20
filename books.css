@@ -362,14 +362,17 @@
 
 @media(max-width: 600px) {
     .bookshelf-content {
-        transform: translateX(-49%) translateZ(7rem) rotateZ(-90deg);
+        transform: rotateZ(-90deg);
+        width: 0rem;
+        top: 10rem;
     }
 
     .shelf-2 {
-        transform: translateX(-49%) translateY(27rem) rotateZ(-90deg);
+       top: 37.4rem
     }
 
     .shelf-3 {
-        transform: translateX(-49%) translateY(54rem) rotateZ(-90deg);
+        top: 64.8rem;
     }
+
 }
