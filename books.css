@@ -277,23 +277,23 @@
     align-items: center;
     justify-self: center;
     background-color: var(--book1);
-    width: 66vw;
-    height: 48vw;
+    width: 86vw;
+    height: 60vw;
     border-radius: 1rem;
 }
 
 .pages {
     position: relative;
-    width: 60vw;
-    height: 44vw;
+    width: 78vw;
+    height: 54vw;
     transform-style: preserve-3d;
 }
 
 .page {
     position: absolute;
     top: 0;
-    width: 30vw;
-    height: 44vw;
+    width: 39vw;
+    height: 54vw;
     background-color: var(--bookpage);
     transform-origin: left center;
     transition: transform 1s;

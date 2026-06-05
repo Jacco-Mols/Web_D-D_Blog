@@ -11,16 +11,11 @@ let prevMouseX = 0;
 let prevMouseY = 0;
 
 function updateRotation() {
-    bookshelf.style.transform =
-    `
-    rotateX(${rotateX}deg)
-    rotateY(${rotateY}deg)
-    `;
+    bookshelf.style.transform = `rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;
 };
 
 bookshelf.addEventListener('mousedown', (event) => {
     isDragging = true;
-
     prevMouseX = event.clientX;
     prevMouseY = event.clientY;
 });
@@ -44,11 +39,9 @@ document.addEventListener('mousemove', (event) => {
     prevMouseX = event.clientX;
     prevMouseY = event.clientY;
 });
-
 updateRotation();
 
 const openBook = document.querySelector('.detail-book');
-
 // opens corrosponding book
 document.addEventListener('click', (event) => {
     const clickedBook = event.target.closest('.book');
@@ -59,32 +52,35 @@ document.addEventListener('click', (event) => {
     document.querySelectorAll('.detail-book').forEach(book => book.classList.remove('active'));
 
     const selectedBook = document.querySelector(`.detail-book[data-book=${bookId}]`);
-
     selectedBook.classList.add('active');
 });
 
-bookshelf.addEventListener('click', () => {
-    openBook.classList.remove('active');
+document.addEventListener('keydown', (e) => {
+    if(e.key === "Enter") {
+        openBook.classList.remove('active');
+    }
 })
 
 // flipped pages
 // https://codepen.io/captain_anonym0us/pen/ybVbpv?editors=0010
-const pages = document.querySelectorAll(".page");
+function initPages() {
+    const pages = document.querySelectorAll(".page");
 
-pages.forEach((page, index) => {
-    if (index % 2 === 0) {
-        page.style.zIndex = pages.length - index;
-    };
+    pages.forEach((page, index) => {
+        if (index % 2 === 0) {
+            page.style.zIndex = pages.length - index;
+        };
 
-    page.pageNum = index + 1;
+        page.pageNum = index + 1;
 
-    page.addEventListener('click', function () {
-        if (this.pageNum % 2 === 0) {
-            this.classList.remove('flipped');
-            this.previousElementSibling?.classList.remove('flipped');
-        } else {
-            this.classList.add('flipped');
-            this.nextElementSibling?.classList.add('flipped');
-        }
-    })
-});
+        page.addEventListener('click', function () {
+            if (this.pageNum % 2 === 0) {
+                this.classList.remove('flipped');
+                this.previousElementSibling?.classList.remove('flipped');
+            } else {
+                this.classList.add('flipped');
+                this.nextElementSibling?.classList.add('flipped');
+            }
+        })
+    });
+}
