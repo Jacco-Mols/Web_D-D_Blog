@@ -4,7 +4,6 @@
     transform-origin: center;
     display: flex;
     justify-content: center;
-    transform: scale(2);
 }
 
 .bookshelf:active {
@@ -223,7 +222,15 @@
 
 @media(max-width: 600px) {
 
-    header {
+    .bookshelf {
+        transform: scale(0.5);
+    }
+
+
+    
+
+    /* for pile of books */
+    /* header {
         height: 10rem;
     }
 
@@ -233,5 +240,5 @@
     
     .bookshelf-side {
         display: none;
-    }
+    } */
 }

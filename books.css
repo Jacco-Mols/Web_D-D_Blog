@@ -360,7 +360,7 @@
 }
 
 
-@media(max-width: 600px) {
+/* @media(max-width: 600px) {
     .bookshelf-content {
         transform: rotateZ(-90deg);
         width: 0rem;
@@ -375,4 +375,4 @@
         top: 64.8rem;
     }
 
-}
+} */
