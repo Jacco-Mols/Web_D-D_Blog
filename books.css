@@ -359,10 +359,9 @@
     display: block;
 }
 
-
-/* @media(max-width: 600px) {
-    .bookshelf-content {
-        transform: rotateZ(-90deg);
+@media(max-width: 600px) {
+    /* .bookshelf-content {
+        transform: rotate(-90deg);
         width: 0rem;
         top: 10rem;
     }
@@ -373,6 +372,24 @@
 
     .shelf-3 {
         top: 64.8rem;
+    } */
+
+    .bookshelf-content, .bookscontainer, .book, .shelf-1, .shelf-2, .shelf-3 {
+        transform: none;
+        transform-style: flat;
     }
 
-} */
+    .shelf-1, .shelf-2, .shelf-3 {
+        width: fit-content;
+    }
+
+
+    .shelf-2 {
+        transform: translateY(110%);
+
+    }
+    
+    .shelf-3 {
+        transform: translateY(220%);
+    }
+}

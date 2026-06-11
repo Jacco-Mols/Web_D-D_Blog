@@ -4,11 +4,18 @@ const bookshelf = document.querySelector('.bookshelf');
 
 let isDragging = false;
 
-let rotateX = 5;
-let rotateY = 15;
+let rotateX = 0;
+let rotateY = 0;
 
 let prevMouseX = 0;
 let prevMouseY = 0;
+
+let scale = window.innerWidth < 600 ? 0.5 : 1;
+
+window.addEventListener('resize', () => {
+    scale = window.innerWidth < 600 ? 0.5 : 1;
+    updateRotation();
+})
 
 function updateRotation() {
     bookshelf.style.transform = `rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;

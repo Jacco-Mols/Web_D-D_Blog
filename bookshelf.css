@@ -221,17 +221,9 @@
 }
 
 @media(max-width: 600px) {
-
-    .bookshelf {
-        transform: scale(0.5);
-    }
-
-
-    
-
     /* for pile of books */
-    /* header {
-        height: 10rem;
+    header {
+        height: 5rem;
     }
 
     .plankcontainer-1, .plankcontainer-2, .plankcontainer-3 {
@@ -240,5 +232,5 @@
     
     .bookshelf-side {
         display: none;
-    } */
+    }
 }
