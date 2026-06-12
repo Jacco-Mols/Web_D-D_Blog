@@ -4,24 +4,48 @@ const bookshelf = document.querySelector('.bookshelf');
 
 let isDragging = false;
 
-let rotateX = 0;
-let rotateY = 0;
+let rotateX = 5;
+let rotateY = 15;
 
 let prevMouseX = 0;
 let prevMouseY = 0;
 
 let scale = window.innerWidth < 600 ? 0.5 : 1;
 
-window.addEventListener('resize', () => {
-    scale = window.innerWidth < 600 ? 0.5 : 1;
+// scale shelf when screen is smaller
+// window.addEventListener('resize', () => {
+//     scale = window.innerWidth < 600 ? 0.5 : 1;
+//     updateRotation();
+// })
+
+function isMobile() {
+    return window.innerWidth < 600;
+}
+
+// set default rotation of mobile version
+function setRotation() {
+    if (isMobile()) {
+    rotateX = 0;
+    rotateY = 0;
+    } else {
+        rotateX = 5;
+        rotateY = 15;
+    }
+
     updateRotation();
-})
+}
+
+setRotation();
+
+window.addEventListener("resize", setRotation);
 
 function updateRotation() {
     bookshelf.style.transform = `rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;
 };
 
 bookshelf.addEventListener('mousedown', (event) => {
+    if (isMobile()) return;
+    
     isDragging = true;
     prevMouseX = event.clientX;
     prevMouseY = event.clientY;
@@ -33,7 +57,8 @@ document.addEventListener('mouseup', (event) => {
 
 document.addEventListener('mousemove', (event) => {
     if (!isDragging) return;
-
+    if (isMobile()) return;
+    
     const deltaX = event.clientX - prevMouseX;
     const deltaY = event.clientY - prevMouseY;
 

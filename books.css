@@ -82,6 +82,10 @@
     align-items: center;
     height: 8rem;
     background: var(--book4);
+
+    h2 {
+        user-select: none;
+    }
 }
 
 .shelf-1 {
@@ -360,36 +364,26 @@
 }
 
 @media(max-width: 600px) {
-    /* .bookshelf-content {
-        transform: rotate(-90deg);
+    .bookshelf-content {
+        transform: rotate(90deg) scale(2);
+        transform-style: flat;
         width: 0rem;
         top: 10rem;
     }
 
+    .shelf-1 {
+        top: 30vh;
+    }
+
     .shelf-2 {
-       top: 37.4rem
+       top: 98.5vh;
     }
 
     .shelf-3 {
-        top: 64.8rem;
-    } */
-
-    .bookshelf-content, .bookscontainer, .book, .shelf-1, .shelf-2, .shelf-3 {
-        transform: none;
-        transform-style: flat;
+        top: 167vh;
     }
 
-    .shelf-1, .shelf-2, .shelf-3 {
-        width: fit-content;
-    }
-
-
-    .shelf-2 {
-        transform: translateY(110%);
-
-    }
-    
-    .shelf-3 {
-        transform: translateY(220%);
+    .label {
+        transform: rotate(180deg);
     }
 }
