@@ -26,6 +26,37 @@
         "type": "link",
         "href": "https://jacco-mols.github.io/Web_D-D_Site0/",
         "label": "Link naar Sprint0 website"
+      },
+      {
+        "type": "text",
+        "content": ""
+      }
+    ]
+  },
+
+  "bt": {
+    "title": "Browser Technology",
+    "pages": [
+      {
+        "type": "text",
+        "content": "Opdracht: Voor Bt hebben we geoefend met formulieren maken door het aangifte erfbelasting formulier te digitaliseren, in de huisstijl van de NS."
+      },
+      {
+        "type": "text",
+        "content": "Ik heb in HTML, CSS en Javascript het formulier nagemaakt, maar dan voor het web. Dit was in het begin erg gecompliceerd, omdat ik niet eerder met bijvoorbeeld fieldsets heb gewerkt, maar naarmate ik dit heb gedaan, werd het wel makkelijker. Wat ik interessant vond, was dat een formulier op het web veel anders en veel uitgebreider kan werken dan op papier."
+      },
+      {
+        "type": "text",
+        "content": "Ik heb door dit project geleerd hoe je semantische formulieren moet maken in HTML. Ik heb ook geleerd over termen zoals progressive enhancement en progressive disclossure. Deze termen gaan over het feit dat je progressief moet coderen en begint met de minst sterke taal en van daaruit steeds verder bouwt om je website te verbeteren. Daarnaast was dit het eerste vak waar ik veel Javascript heb moeten gebruiken. Hierdoor heb ik ook geleerd hoe je bijvoorbeeld een pagination moet maken."
+      },
+      {
+        "type": "image",
+        "src": "./Assests/img/bt.png"
+      },
+      {
+        "type": "link",
+        "href": "https://jacco-mols.github.io/Web_D-D_BT_Site/",
+        "label": "Link naar website"
       }
     ]
   },
@@ -65,33 +96,10 @@
         "type": "link",
         "href": "https://jacco-mols.github.io/Web-DD_CSS/",
         "label": "Link naar website"
-      }
-    ]
-  },
-
-  "bt": {
-    "title": "Browser Technology",
-    "pages": [
-      {
-        "type": "text",
-        "content": "Opdracht: Voor Bt hebben we geoefend met formulieren maken door het aangifte erfbelasting formulier te digitaliseren, in de huisstijl van de NS."
       },
       {
         "type": "text",
-        "content": "Ik heb in HTML, CSS en Javascript het formulier nagemaakt, maar dan voor het web. Dit was in het begin erg gecompliceerd, omdat ik niet eerder met bijvoorbeeld fieldsets heb gewerkt, maar naarmate ik dit heb gedaan, werd het wel makkelijker. Wat ik interessant vond, was dat een formulier op het web veel anders en veel uitgebreider kan werken dan op papier."
-      },
-      {
-        "type": "text",
-        "content": "Ik heb door dit project geleerd hoe je semantische formulieren moet maken in HTML. Ik heb ook geleerd over termen zoals progressive enhancement en progressive disclossure. Deze termen gaan over het feit dat je progressief moet coderen en begint met de minst sterke taal en van daaruit steeds verder bouwt om je website te verbeteren. Daarnaast was dit het eerste vak waar ik veel Javascript heb moeten gebruiken. Hierdoor heb ik ook geleerd hoe je bijvoorbeeld een pagination moet maken."
-      },
-      {
-        "type": "image",
-        "src": "./Assests/img/bt.png"
-      },
-      {
-        "type": "link",
-        "href": "https://jacco-mols.github.io/Web_D-D_BT_Site/",
-        "label": "Link naar website"
+        "content": ""
       }
     ]
   },
@@ -224,6 +232,10 @@
       {
         "type": "text",
         "content": "Wat ik wel interessant vond, is om te horen dat Killian zijn eigen browser had gemaakt, genaamd PolyPane. En dit vond ik heel interessant om te horen en om te zien wat ik nou precies in deze branche zou kunnen worden."
+      },
+      {
+        "type": "text",
+        "content": ""
       }
     ]
   },
@@ -348,6 +360,92 @@
       {
         "type": "text",
         "content": "Uiteraard was hij verder gegaan op het idee om aparte klokken te ontwerpen en is hij de uitdaging aangegaan om een klok te maken op een oscilloscoop. In zijn proces vertelde hij dat hij een oscilloscoop per ongeluk in de fik had gevlogen omdat hij zoveel CSS had geschreven. Wat hij verder ook heeft gedaan, is om het spel Doom en andere applicaties die alleen maar in CSS zijn gemaakt, toe te passen op een oscilloscoop. En tot mijn verbazing had hij al deze creaties ook toegepast op een laser."
+      }
+    ]
+  },
+
+  "wn8": {
+    "title": "Hans de Zwart",
+    "pages": [
+      {
+        "type": "text",
+        "content": "Tijdens deze Weekly Nerd ging het over privacy en de vraag ‘heb je niks te verbergen?’. De sprekers legden uit dat privacy niet alleen gaat over dingen verbergen, maar juist over controle hebben over je eigen gegevens en gedrag. Privacy werd uitgelegd als een individueel recht, maar ook als een sociaal en democratisch concept."
+      },
+      {
+        "type": "text",
+        "content": "Als individueel recht geeft het je de ruimte om jezelf te kunnen zijn zonder constant bekeken te worden. Als sociaal recht gaat het erom dat je je in verschillende contexten anders mag gedragen, zoals online, bij vrienden of in familiekringen. En als democratische noodzaak voorkomt het dat je gemanipuleerd wordt door systemen of andere partijen."
+      },
+      {
+        "type": "text",
+        "content": "Daarnaast werd het idee van contextuele integriteit uitgelegd, wat betekent dat informatie niet zomaar gedeeld mag worden met partijen waar je dat niet van zou verwachten. Privacy draait dus vooral om controle over je eigen data en wat er met die data gebeurt. Ook kwam privacywetgeving zoals de AVG aan bod, waarin wordt uitgelegd hoe met persoonsgegevens moet worden omgegaan."
+      },
+      {
+        "type": "text",
+        "content": "Verder ging het over rechten zoals inzage, correctie, vergetelheid en dataportabiliteit. Ook werd besproken dat data niet alleen een asset is, maar ook een verantwoordelijkheid. Daarom is dataminimalisatie belangrijk en worden vaak technieken zoals cryptografie en andere privacyvriendelijke oplossingen gebruikt."
+      },
+      {
+        "type": "text",
+        "content": ""
+      }
+    ]
+  },
+
+  "wn10": {
+    "title": "De Voorhoede",
+    "pages": [
+      {
+        "type": "text",
+        "content": "Deze Weekly Nerd bestond uit drie verschillende sprekers. Van de drie vond ik de eerste spreker het interessantst. Zij werkte als front-end developer en vertelde dat het werk van een frontender veel meer is dan alleen programmeren. Zo moet je slimme oplossingen bedenken voor designproblemen, omgaan met onduidelijke opdrachten van klanten en technische onderwerpen kunnen uitleggen aan mensen die hier weinig verstand van hebben."
+      },
+      {
+        "type": "text",
+        "content": "Ook liet ze een project voor DGTL zien waarbij ze onder andere CSS blend modes had gebruikt. Daarnaast vertelde ze over minder bekende HTML-elementen, zoals het Ruby-element voor Japanse tekst. Deze spreking gaf mij een goed beeld van hoe het werk van een front-end developer er in de praktijk uitziet."
+      },
+      {
+        "type": "text",
+        "content": "De tweede spreker was een accessibility specialist en vertelde veel over toegankelijkheid en design systems. Hij liet zien hoe kleine details, zoals een slecht zichtbaar vinkje, een grote impact kunnen hebben op gebruikers. Hoewel ik toegankelijkheid een belangrijk onderwerp vind, vond ik deze presentatie persoonlijk minder interessant."
+      },
+      {
+        "type": "text",
+        "content": "Een deel van de uitleg was vrij technisch en bleef daardoor minder goed hangen. De derde spreker vertelde over Offline First en Progressive Web Apps. Hij legde uit hoe websites ook zonder internetverbinding kunnen blijven werken door gegevens lokaal op te slaan en later te synchroniseren."
+      },
+      {
+        "type": "text",
+        "content": "Hoewel ik het interessant vond om te horen hoe dit werkt, vond ik dit ook het lastigste onderdeel van de middag. Er kwamen veel technische en meer back-end gerelateerde onderwerpen voorbij, waardoor ik niet alles goed kon volgen."
+      },
+      {
+        "type": "text",
+        "content": "Toch vond ik het waardevol om een beter beeld te krijgen van hoe moderne webapplicaties omgaan met offline gebruik. Over het algemeen bleef vooral de eerste spreker mij bij, omdat haar verhaal het beste aansloot bij mijn interesse in front-end development en design."
+      },
+      {
+        "type": "text",
+        "content": ""
+      }
+    ]
+  },
+
+  "wn11": {
+    "title": "The web you want vol. 2",
+    "pages": [
+      {
+        "type": "text",
+        "content": "De eerste spreker, Leonie Watson, sprak over toegankelijkheid voor blinde en slechtziende gebruikers en haar ervaringen met AI. Zij gaf aan dat veel documenten, zoals officiële Europese Unie documenten, nog steeds slecht toegankelijk zijn omdat ze geen duidelijke headings bevatten. Ook liet ze zien dat webshops vaak onduidelijke beschrijvingen hebben voor screenreaders, waardoor het lastig is om producten goed te begrijpen of te vinden."
+      },
+      {
+        "type": "text",
+        "content": "Leonie vertelde dat AI voor haar steeds belangrijker wordt, omdat het beter afbeeldingen kan beschrijven dan een standaard screenreader. Ze gebruikt AI zelfs om real-life objecten te herkennen en om producten te vinden tijdens het online shoppen. In die situaties werkt AI als een soort assistent die haar helpt om dingen te doen die anders lastig zouden zijn."
+      },
+      {
+        "type": "text",
+        "content": "Ze vertelde dat ongeveer 20% van de afbeeldingen op het web geen goede alt-tekst heeft, waardoor veel onzekerheid en extra werk ontstaat voor gebruikers die afhankelijk zijn van hulpmiddelen. Haar boodschap was dat elke fout op het web extra werk creëert voor iemand anders en dat designers dit zoveel mogelijk moeten voorkomen."
+      },
+      {
+        "type": "text",
+        "content": "De tweede spreker, Cyd Stumpel, ging in op CSS motion en toegankelijk design. Zij liet zien hoe animaties op een toegankelijke manier gebruikt kunnen worden en hoe slechte of geïmiteerde AI-code kan zorgen voor een minder goede gebruikerservaring."
+      },
+      {
+        "type": "text",
+        "content": ""
       }
     ]
   },
