@@ -214,6 +214,32 @@
   ]
 },
 
+  "meesterproef": {
+    "title": "Visdeurbel",
+    "pages": [
+      {
+        "type": "text",
+        "content": "Voor de Visdeurbel hebben wij in een groep van vier studenten gewerkt aan het ontwerpen en ontwikkelen van nieuwe visualisaties voor de website. De Visdeurbel is een interactief project waarbij gebruikers kunnen zien wat er onder water gebeurt bij een deurbel in het water en waar verschillende vissoorten en snapshots worden verzameld en getoond. Binnen dit project hebben wij nieuwe manieren bedacht om deze data beter en duidelijker te visualiseren. Elke week kregen we feedback en testmomenten met de originele ontwerpers van de Visdeurbel, Studio Moan. Hierdoor leerden we om ons werk te presenteren aan een opdrachtgever en feedback snel te verwerken in ons product."
+      },
+      {
+        "type": "text",
+        "content": "Aan het begin van het project lag de focus op het begrijpen van de opdracht en het verkennen van de data die we kregen, zoals CSV bestanden en visuele data van snapshots. We begonnen met brainstormen en het maken van schetsen in Figma, waarna we de taken binnen het team verdeelden. Mijn rol lag vooral bij de visfoto’s en later interactieve onderdelen zoals een spel en visdetails. In deze fase liep ik vooral tegen technische uitdagingen aan bij het werken met CSV data en het filteren en ophalen van informatie met JavaScript. Door hulp van teamgenoten en bronnen zoals MDN en AI heb ik dit uiteindelijk kunnen oplossen en verder kunnen uitbreiden met extra functies zoals een dialog, tooltips en filtering."
+      },
+      {
+        "type": "text",
+        "content": "In de tweede en derde week lag de focus meer op interactie en toegankelijkheid van de website. Ik heb onder andere een spel gemaakt waarbij gebruikers vissen moeten raden, waarbij ik rekening heb gehouden met toetsenbordnavigatie en screenreadergebruik. Ook heb ik gewerkt aan het verbeteren van de data verwerking en het tonen van visinformatie, zoals het genereren van willekeurige snapshots en visdetails. Tijdens testmomenten met Studio Moan kregen we feedback dat sommige onderdelen niet duidelijk genoeg waren of niet genoeg uitnodigden tot gebruik. Deze feedback hebben we gebruikt om onze ontwerpen aan te passen en beter te laten aansluiten op de gebruiker."
+      },
+      {
+        "type": "text",
+        "content": "In de laatste weken zijn we overgestapt naar het Astro framework, waardoor we beter konden werken met componenten en de structuur van de website overzichtelijker werd. Daarna heb ik mijn onderdelen opnieuw opgebouwd met meer focus op usability en duidelijke interactie. Zo heb ik een vis-detail sectie gemaakt met een popover en later een carousel waarin gebruikers door viskaarten kunnen bladeren. Dit onderdeel is meerdere keren aangepast op basis van feedback van de opdrachtgever, vooral op gebied van hiërarchie, duidelijkheid en visuele structuur. In de laatste versie hebben we gekozen voor een carousel-oplossing waarin gebruikers door kaarten en afbeeldingen kunnen navigeren."
+      },
+      {
+        "type": "text",
+        "content": "Als ik terugkijk op dit project heb ik veel geleerd over samenwerken in een team, werken met een echte opdrachtgever en het snel verwerken van feedback in korte iteraties. Ook heb ik grote stappen gezet in JavaScript, data verwerking en toegankelijkheid. Mijn belangrijkste leerdoel, beter nadenken over usability en toegankelijkheid, heb ik steeds beter kunnen toepassen in mijn werk. Daarnaast ben ik gegroeid in het presenteren van mijn werk aan een opdrachtgever, al is dit nog steeds iets waar ik verder in wil groeien. Ook werken met GitHub, branches en samenwerken in code gaat nu een stuk natuurlijker."
+      }
+    ]
+  },
+
   "wn1": {
     "title": "Killian Valkhof",
     "pages": [
@@ -382,6 +408,32 @@
       {
         "type": "text",
         "content": "Verder ging het over rechten zoals inzage, correctie, vergetelheid en dataportabiliteit. Ook werd besproken dat data niet alleen een asset is, maar ook een verantwoordelijkheid. Daarom is dataminimalisatie belangrijk en worden vaak technieken zoals cryptografie en andere privacyvriendelijke oplossingen gebruikt."
+      },
+      {
+        "type": "text",
+        "content": ""
+      }
+    ]
+  },
+
+  "wn9": {
+    "title": "Q42",
+    "pages": [
+      {
+        "type": "text",
+        "content": "Voor een bedrijfsbezoek zijn we langs geweest bij Q42 om een kijkje te nemen in het werkveld. We kregen daar een presentatie over hoe zij werken en welke projecten zij maken. Q42 maakt verschillende digitale producten zoals websites, apps en soms zelfs games. Een groot deel van de presentatie ging over design systems en hoe zij deze gebruiken binnen projecten voor grote klanten, zoals Greenchoice."
+      },
+      {
+        "type": "text",
+        "content": "Ze vertelden onder andere over interdisciplinair samenwerken, werken met grote klanten, AI en toegankelijkheid. Wat ik interessant vond was hun eigen variant op Atomic Design. In plaats van atoms, molecules en organisms werken zij met foundations, core components, composites en screens. Ook werd duidelijk dat grote projecten vaak meer tijd kosten doordat er veel stakeholders betrokken zijn. Daarom vinden zij het belangrijk om alles goed te documenteren zodat voor iedereen duidelijk is hoe onderdelen gebruikt moeten worden."
+      },
+      {
+        "type": "text",
+        "content": "Daarnaast vertelden ze hoe zij tegen AI aankijken. Volgens hen is AI handig voor bijvoorbeeld documentatie of andere minder leuke taken, maar moet je het niet gebruiken voor onderdelen waar creativiteit voor nodig is. Ook werd er veel aandacht besteed aan toegankelijkheid. Hun visie was dat toegankelijkheid geen extra optie moet zijn, maar standaard onderdeel van een product."
+      },
+      {
+        "type": "text",
+        "content": "Ik vond het interessant om een keer bij een groot bedrijf langs te gaan en te zien hoe zij werken aan projecten. Wel merkte ik dat Q42 voor mijn persoonlijke smaak erg groot en breed is. Ze werken aan veel verschillende soorten projecten en hebben veel mensen in dienst. Zelf denk ik dat een iets kleiner bedrijf beter bij mij zou passen. Toch vond ik het waardevol om te zien hoe een groot bedrijf te werk gaat en welke uitdagingen daarbij komen kijken."
       },
       {
         "type": "text",
