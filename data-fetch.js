@@ -35,7 +35,7 @@ async function jsonContent() {
                     pagesHTML += `<img src="${page.src || page.image}">`;
                 }
                 if (page.type === "link") {
-                    pagesHTML += `<a href="${page.href}" target="_blank">${page.label}</a>`;
+                    pagesHTML += `<a href="${page.href}" target="_blank"><p>${page.label}</p></a>`;
                 }
                 pagesHTML += `</div>`;
             });

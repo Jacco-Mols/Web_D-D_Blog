@@ -85,8 +85,24 @@ document.addEventListener('click', (event) => {
 
     const selectedBook = document.querySelector(`.detail-book[data-book=${bookId}]`);
     selectedBook.classList.add('active');
+
+    selectedBook.scrollIntoView({
+        behavior: 'smooth',
+        block: 'center',
+        inline: 'center'
+    })
 });
 
+// close open books
+const closeBook = document.querySelectorAll('.close-book');
+
+closeBook.forEach(book => {
+    book.addEventListener('click', () => {
+        document.querySelectorAll('.detail-book').forEach(book => book.classList.remove('active'));
+    })
+})
+
+// want to open and close books with keys 
 document.addEventListener('keydown', (e) => {
     if(e.key === "Enter") {
         openBook.classList.remove('active');

@@ -55,7 +55,7 @@
       },
       {
         "type": "link",
-        "href": "https://jacco-mols.github.io/Web_D-D_BT_Site/",
+        "href": "https://jacco-mols.github.io/Web-DD_BT_Site/",
         "label": "Link naar website"
       }
     ]
@@ -140,7 +140,6 @@
     },
     {
       "type": "text",
-      "heading": "Wat heb ik gedaan?",
       "content": "Ik had voor de Animal Crossing API gekozen, omdat ik dit spel vaak speel. Mijn idee was om een dress-up game te maken voor de villagers in Animal Crossing. Met veel moeite in het begin heb ik alle data kunnen ophalen van de API en was het mij gelukt om een dynamische pagina te maken via Astro. Als je dus op een villager van de lijst klikt kom je op een pagina die dezelfde villager laat zien. Verder heb ik ervoor gekozen om de kleding aan te passen met een drag-and-drop API, deze outfit kan je weer opslaan door middel van localStorage."
     },
     {
@@ -157,7 +156,6 @@
     },
     {
       "type": "text",
-      "heading": "Wat heb ik geleerd?",
       "content": "Bij dit onderdeel heb ik het meest leren werken in Astro, mijn terminal, JavaScript en uiteraard content- en web API's. In JavaScript heb ik veel functies geleerd zoals JSON.parse(), .map(), .find(), .slice() en .filter(). Deze termen waren eerst lastig om te begrijpen, maar hier begon ik uiteindelijk wel handig in te worden."
     },
     {
@@ -177,12 +175,10 @@
     },
     {
       "type": "text",
-      "heading": "Voor wie?",
       "content": "Ik heb voor Darice een transcriptiewebsite ontworpen. Darice is doof en beleeft video's en podcasts op een andere manier. Zij kan hiermee transcripties lezen in een ontwerp dat aansluit op haar persoonlijke stijl."
     },
     {
       "type": "text",
-      "heading": "Wat heb ik gedaan?",
       "content": "Door elke week een verschillende versie te testen ben ik uiteindelijk tot een eindversie gekomen waar Darice tevreden mee is. Hieronder zie je de verschillende versies die ik heb getest."
     },
     {
@@ -203,7 +199,6 @@
     },
     {
       "type": "text",
-      "heading": "Wat heb ik geleerd?",
       "content": "Ik heb geleerd te ontwerpen voor iemand die het web op een aangepaste manier gebruikt en mij in te leven in de ervaring van die persoon. Ook heb ik geleerd om met VTT-bestanden te werken en deze in te laden met JavaScript."
     },
     {
@@ -222,16 +217,40 @@
         "content": "Voor de Visdeurbel hebben wij in een groep van vier studenten gewerkt aan het ontwerpen en ontwikkelen van nieuwe visualisaties voor de website. De Visdeurbel is een interactief project waarbij gebruikers kunnen zien wat er onder water gebeurt bij een deurbel in het water en waar verschillende vissoorten en snapshots worden verzameld en getoond. Binnen dit project hebben wij nieuwe manieren bedacht om deze data beter en duidelijker te visualiseren. Elke week kregen we feedback en testmomenten met de originele ontwerpers van de Visdeurbel, Studio Moan. Hierdoor leerden we om ons werk te presenteren aan een opdrachtgever en feedback snel te verwerken in ons product."
       },
       {
+        "type": "image",
+        "src": "./Assests/img/visdeurbel.png"
+      },
+      {
         "type": "text",
         "content": "Aan het begin van het project lag de focus op het begrijpen van de opdracht en het verkennen van de data die we kregen, zoals CSV bestanden en visuele data van snapshots. We begonnen met brainstormen en het maken van schetsen in Figma, waarna we de taken binnen het team verdeelden. Mijn rol lag vooral bij de visfoto’s en later interactieve onderdelen zoals een spel en visdetails. In deze fase liep ik vooral tegen technische uitdagingen aan bij het werken met CSV data en het filteren en ophalen van informatie met JavaScript. Door hulp van teamgenoten en bronnen zoals MDN en AI heb ik dit uiteindelijk kunnen oplossen en verder kunnen uitbreiden met extra functies zoals een dialog, tooltips en filtering."
+      },
+      {
+        "type": "image",
+        "src": "./Assests/img/vis-1.png"
       },
       {
         "type": "text",
         "content": "In de tweede en derde week lag de focus meer op interactie en toegankelijkheid van de website. Ik heb onder andere een spel gemaakt waarbij gebruikers vissen moeten raden, waarbij ik rekening heb gehouden met toetsenbordnavigatie en screenreadergebruik. Ook heb ik gewerkt aan het verbeteren van de data verwerking en het tonen van visinformatie, zoals het genereren van willekeurige snapshots en visdetails. Tijdens testmomenten met Studio Moan kregen we feedback dat sommige onderdelen niet duidelijk genoeg waren of niet genoeg uitnodigden tot gebruik. Deze feedback hebben we gebruikt om onze ontwerpen aan te passen en beter te laten aansluiten op de gebruiker."
       },
       {
+        "type": "image",
+        "src": "./Assests/img/vis-2.png"
+      },
+      {
         "type": "text",
         "content": "In de laatste weken zijn we overgestapt naar het Astro framework, waardoor we beter konden werken met componenten en de structuur van de website overzichtelijker werd. Daarna heb ik mijn onderdelen opnieuw opgebouwd met meer focus op usability en duidelijke interactie. Zo heb ik een vis-detail sectie gemaakt met een popover en later een carousel waarin gebruikers door viskaarten kunnen bladeren. Dit onderdeel is meerdere keren aangepast op basis van feedback van de opdrachtgever, vooral op gebied van hiërarchie, duidelijkheid en visuele structuur. In de laatste versie hebben we gekozen voor een carousel-oplossing waarin gebruikers door kaarten en afbeeldingen kunnen navigeren."
+      },
+      {
+        "type": "image",
+        "src": "./Assests/img/vis-3.png"
+      },
+      {
+        "type": "image",
+        "src": "./Assests/img/vis-4.png"
+      },
+      {
+        "type": "image",
+        "src": "./Assests/img/vis-5.png"
       },
       {
         "type": "text",
@@ -507,11 +526,11 @@
     "pages": [
       {
         "type": "text",
-        "content": "Leerdoel 1: Ik wil graag goed worden in het presenteren van mijn werk aan de opdrachtgever en/of de klant die ik heb gemaakt binnen het groepje."
+        "content": "Leerdoel 1: Ik wil graag goed worden in het presenteren van het werk dat ik binnen mijn groepje heb gemaakt aan de opdrachtgever en/of de klant."
       },
       {
         "type": "text",
-        "content": "Leerdoel 2: Beter worden in het nadenken over de toegankelijkheid van de website, dus bijvoorbeeld de navigatie, contrast, responsiveness. Ik denk dat ik hier meer ontwerp voor de gebruiker."
+        "content": "Leerdoel 2: Beter worden in het nadenken over de toegankelijkheid van de website, dus bijvoorbeeld de navigatie, contrast of responsiveness. Ik denk dat ik hierdoor beter word in het ontwerpen voor de gebruiker."
       },
       {
         "type": "text",
