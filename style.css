@@ -15,20 +15,56 @@
     --darkpink: #dc6599;
     --white: #f9f5f5;
 
+
+    /* voor 2e thema */
+    --lightpurple: #93467e;
+
+
     --bg: var(--lightpink);
     --bookshelf: var(--darkred);
     --bookshelflightshadow: var(--darkerred);
     --bookshelfshadow: var(--darkpurple);
     --bookshelfdarkshadow: var(--darkerpurple);
+
     --book1: var(--green);
     --book1shadow: var(--darkgreen);
+
     --book2: var(--yellow);
     --book2shadow: var(--darkyellow);
+
     --book3: var(--lightred);
+
     --book4: var(--pink);
     --book4shadow: var(--darkpink);
+
     --book5: var(--blue);
     --book5shadow: var(--darkblue);
+
+    --bookpage: var(--white);
+}
+
+.theme-dark {
+    --bg: var(--darkerpurple);
+
+    --bookshelf: var(--lightpurple);
+    --bookshelflightshadow: var(--darkpurple);
+    --bookshelfshadow: var(--darkerpurple);
+    --bookshelfdarkshadow: var(--darkpurple);
+
+    --book1: var(--darkgreen);
+    --book1shadow: var(--green);
+
+    --book2: var(--darkyellow);
+    --book2shadow: var(--yellow);
+
+    --book3: var(--darkred);
+
+    --book4: var(--darkpink);
+    --book4shadow: var(--pink);
+
+    --book5: var(--darkblue);
+    --book5shadow: var(--blue);
+
     --bookpage: var(--white);
 }
 

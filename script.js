@@ -132,3 +132,10 @@ function initPages() {
         })
     });
 }
+
+const btn = document.querySelector("#themeToggle");
+const body = document.body;
+
+btn.addEventListener("click", () => {
+    body.classList.toggle("theme-dark");
+});
