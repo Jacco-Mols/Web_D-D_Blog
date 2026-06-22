@@ -1,7 +1,13 @@
 async function jsonContent() {
     const jsonUrl = new URL("./data/data.json", window.location.href);
+    console.log(jsonUrl)
+    if(!jsonUrl) {console.log("no url")}
     const response = await fetch(jsonUrl);
+    console.log(response)
+    if(!response) {console.log("no response")}
     const data = await response.json();
+    if(!data) {console.log("no data")}    
+    console.log(data)
 
     const bookElements = document.querySelectorAll(".book");
 
