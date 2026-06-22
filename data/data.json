@@ -251,13 +251,9 @@
       {
         "type": "image",
         "src": "./Assests/img/vis-5.png"
-      },
-      {
-        "type": "text",
-        "content": "Als ik terugkijk op dit project heb ik veel geleerd over samenwerken in een team, werken met een echte opdrachtgever en het snel verwerken van feedback in korte iteraties. Ook heb ik grote stappen gezet in JavaScript, data verwerking en toegankelijkheid. Mijn belangrijkste leerdoel, beter nadenken over usability en toegankelijkheid, heb ik steeds beter kunnen toepassen in mijn werk. Daarnaast ben ik gegroeid in het presenteren van mijn werk aan een opdrachtgever, al is dit nog steeds iets waar ik verder in wil groeien. Ook werken met GitHub, branches en samenwerken in code gaat nu een stuk natuurlijker."
       }
-    ]
-  },
+      ]
+    },
 
   "wn1": {
     "title": "Killian Valkhof",
@@ -535,6 +531,24 @@
       {
         "type": "text",
         "content": "Leerdoel 3: Vaker initiatief nemen om in Github te werken om meer ervaring op te doen met branches, Github repositories en mergen."
+      }
+    ]
+  },
+
+  "reflectie": {
+    "title": "Reflectie",
+    "pages": [
+      {
+        "type": "text",
+        "content": "Als ik terug kijk op dit project ben ik over het algemeen tevreden met wat ik heb geleerd en gemaakt. Aan het begin van de minor vond ik het werken met grote hoeveelheden data en csv bestanden best lastig, omdat ik hier nog weinig ervaring mee had. Tijdens dit project heb ik veel geleerd over het ophalen, filteren en verwerken van data in JavaScript. Ook heb ik gemerkt dat ik steeds zelfstandiger problemen kan oplossen, al heb ik nog regelmatig hulp gevraagd aan mijn teamgenoten, coach of Ai wanneer ik vast liep. Vooral bij het maken van de verschillende visonderdelen heb ik veel nieuwe technieken geleerd die ik voor dit project nog niet kende."
+      },
+      {
+        "type": "text",
+        "content": "Mijn belangrijkste leerdoel was om meer na te denken over de toegankelijkheid en usability van de website. Ik denk dat ik hier tijdens dit project zeker stappen in heb gemaakt. Bij verschillende onderdelen heb ik geprobeerd om na te denken over hoe gebruikers met de website omgaan en welke problemen zij kunnen ervaren. Een voorbeeld hiervan is het toegankelijker maken van het vissen spel door toetsenbord navigatie toe te voegen. Ook heb ik tijdens de testen steeds beter geleerd om naar feedback van gebruikers en de opdrachtgever te luisteren en deze feedback te verwerken in nieuwe ontwerpen. Hierdoor ben ik minder snel direct begonnen met programmeren en heb ik vaker eerst gekeken naar wat het beste werkt voor de gebruiker."
+      },
+      {
+        "type": "text",
+        "content": "Daarnaast ben ik ook meer gaan samenwerken in Github dan ik vooraf had verwacht. In het begin vond ik het werken met branches, repositories en mergen nog best spannend omdat ik bang was om iets stuk te maken. Naarmate het project verder ging kreeg ik hier meer vertrouwen in en werkte ik steeds vaker direct vanuit Github. Ook vond ik het prettig dat we als team goed samenwerkten en elkaar hielpen wanneer iemand ergens vast liep. Vooral bij de laatste versie van mijn onderdeel heb ik veel samengewerkt met Diego, waardoor ik ook beter ben gaan begrijpen hoe bepaalde JavaScript oplossingen werken. Waar ik nog verder in wil groeien is het presenteren van mijn werk en het sneller loslaten van technische problemen wanneer ik merk dat ik er te veel tijd aan besteed. In week 3 heb ik bijvoorbeeld erg veel tijd gestoken in het oplossen van een performance probleem dat uiteindelijk niet door mijn eigen code werd veroorzaakt. Achteraf had ik hier eerder hulp bij kunnen vragen of sneller kunnen onderzoeken of het probleem ergens anders zat. Ondanks dat ben ik tevreden met het eindresultaat en heb ik het gevoel dat ik tijdens dit project veel heb geleerd over samenwerken, toegankelijkheid en het ontwikkelen van interactieve onderdelen voor een echte opdrachtgever."
       }
     ]
   }
