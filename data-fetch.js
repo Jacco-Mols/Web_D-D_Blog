@@ -1,15 +1,22 @@
 console.log('script loaded!')
 async function jsonContent() {
-    console.log('function')
     const jsonUrl = new URL("./data/data.json", window.location.href);
     console.log(jsonUrl)
-    if(!jsonUrl) {console.log("no url")}
+
     const response = await fetch(jsonUrl);
     console.log(response)
-    if(!response) {console.log("no response")}
+
+        console.log("status:", response.status);
+console.log("url:", response.url);
+
+const text = await response.text();
+console.log("RAW RESPONSE:", text.slice(0, 200));
+
     const data = await response.json();
     if(!data) {console.log("no data")}    
     console.log(data)
+
+
 
     const bookElements = document.querySelectorAll(".book");
 
