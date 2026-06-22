@@ -1,4 +1,6 @@
+console.log('script loaded!')
 async function jsonContent() {
+    console.log('function')
     const jsonUrl = new URL("./data/data.json", window.location.href);
     console.log(jsonUrl)
     if(!jsonUrl) {console.log("no url")}
