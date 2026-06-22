@@ -1,0 +1,541 @@
+{
+  "sprint0": {
+    "title": "Sprint 0",
+    "pages": [
+      {
+        "type": "text",
+        "content": "In de eerste twee weken van mijn minor heb ik vooral veel geleerd over animaties, responsive design en JavaScript. Ik heb verschillende workshops gevolgd, waaronder scroll-animaties, responsive design, theming, typografie en het gebruik van flexbox en grid. Vooral de workshops over animaties en responsive design vond ik erg nuttig, omdat ik dit direct kon toepassen op mijn eigen website."
+      },
+      {
+        "type": "text",
+        "content": "Ik heb veel tijd besteed aan het bouwen van mijn website en het toevoegen van interacties. Zo heb ik een JavaScript toggle gemaakt zodat een boek geopend kan worden zonder van pagina te wisselen en een page-flip animatie toegevoegd met transform-origin en rotateY(-180deg). Dit duurde vaak langer dan verwacht, omdat ik nog niet veel ervaring heb met JavaScript en animaties, maar uiteindelijk lukte het wel om de interacties werkend te krijgen."
+      },
+      {
+        "type": "text",
+        "content": "Daarnaast ben ik bezig geweest met het responsive maken van mijn site, het verbeteren van de details van de boekenkast en het toevoegen van dark- en lightmode thema's. Ook heb ik gewerkt aan het ophalen van data uit een API. Dit vond ik lastig, maar hierdoor heb ik wel een beter beeld gekregen van hoe dynamische HTML structuur werkt in JavaScript en hoe je data kan ophalen met bijvoorbeeld een forEach functie."
+      },
+      {
+        "type": "image",
+        "src": "./Assests/img/sprint0-1.png"
+      },
+      {
+        "type": "text",
+        "content": "Ik merk dat ik nog vaak vastloop in JavaScript, maar ik heb ook veel geleerd door vragen te stellen aan klasgenoten en workshops te volgen. Mijn focus lag deze weken op het verbeteren van animaties, interacties en mijn begrip van JavaScript, zodat ik minder afhankelijk word van AI en beter kan samenwerken met back-end developers."
+      },
+      {
+        "type": "link",
+        "href": "https://jacco-mols.github.io/Web_D-D_Site0/",
+        "label": "Link naar Sprint0 website"
+      },
+      {
+        "type": "text",
+        "content": ""
+      }
+    ]
+  },
+
+  "bt": {
+    "title": "Browser Technology",
+    "pages": [
+      {
+        "type": "text",
+        "content": "Opdracht: Voor Bt hebben we geoefend met formulieren maken door het aangifte erfbelasting formulier te digitaliseren, in de huisstijl van de NS."
+      },
+      {
+        "type": "text",
+        "content": "Ik heb in HTML, CSS en Javascript het formulier nagemaakt, maar dan voor het web. Dit was in het begin erg gecompliceerd, omdat ik niet eerder met bijvoorbeeld fieldsets heb gewerkt, maar naarmate ik dit heb gedaan, werd het wel makkelijker. Wat ik interessant vond, was dat een formulier op het web veel anders en veel uitgebreider kan werken dan op papier."
+      },
+      {
+        "type": "text",
+        "content": "Ik heb door dit project geleerd hoe je semantische formulieren moet maken in HTML. Ik heb ook geleerd over termen zoals progressive enhancement en progressive disclossure. Deze termen gaan over het feit dat je progressief moet coderen en begint met de minst sterke taal en van daaruit steeds verder bouwt om je website te verbeteren. Daarnaast was dit het eerste vak waar ik veel Javascript heb moeten gebruiken. Hierdoor heb ik ook geleerd hoe je bijvoorbeeld een pagination moet maken."
+      },
+      {
+        "type": "image",
+        "src": "./Assests/img/bt.png"
+      },
+      {
+        "type": "link",
+        "href": "https://jacco-mols.github.io/Web-DD_BT_Site/",
+        "label": "Link naar website"
+      }
+    ]
+  },
+
+  "css": {
+    "title": "CSS",
+    "pages": [
+      {
+        "type": "text",
+        "content": "Opdracht: Maak een control panel die iets bestuurd in alleen maar HTML en Css zonder classes te gebruiken"
+      },
+      {
+        "type": "text",
+        "content": "Ik had ervoor gekozen om een Nintendo GameBoy te ontwerpen in CSS. Dit was anders ontwerpen dan ik gewend was, waardoor ik veel nieuwe code moest gaan leren, maar uiteraard super leuk! het was ook even zoeken of ik beter flexbox of een grid kon gebruiken voor de layout van de knoppen, maar hier heb ik uiteindelijk een handige combinatie van gemaakt."
+      },
+      {
+        "type": "image",
+        "src": "./Assests/img/css-1.png"
+      },
+      {
+        "type": "text",
+        "content": "Na het maken van de control layout wilde ik graag een spel erop laten spelen. Het leek me leuk om een vorm te laten bewegen met de pijlen van de gameboy. Na veel onderzoek, iteraties en een beetje wiskunde was dit gelukt. Daarnaast heb ik ook ervoor gezorgd dat de gameboy een 3D look krijgt doormiddel van een skew."
+      },
+      {
+        "type": "image",
+        "src": "./Assests/img/css-2.png"
+      },
+      {
+        "type": "text",
+        "content": "Bij Css hebben erg goed leren omgaan met de css selectors. Ik heb bijvoorbeeld gewerkt met \"has:()\", \":not()\", \":nth-of-type(2n)\" en nog meer variaties. Verder heb ik leren werken met anchor positioning, css nesting, container queries, media queries en complexe css selectors."
+      },
+      {
+        "type": "image",
+        "src": "./Assests/img/css-3.png"
+      },
+      {
+        "type": "link",
+        "href": "https://jacco-mols.github.io/Web-DD_CSS/",
+        "label": "Link naar website"
+      },
+      {
+        "type": "text",
+        "content": ""
+      }
+    ]
+  },
+
+  "hackaton": {
+    "title": "Hackaton",
+    "pages": [
+      {
+        "type": "text",
+        "content": "Voor Hackaton hebben we in een groepje een website gemaakt voor Nebula Explorer"
+      },
+      {
+        "type": "text",
+        "content": "Binnen dit team heb ik zelf de team pagina gemaakt waarin je iets kan lezen over de verschillende teamleden. Voor deze leden heb ik astronaut karakter gemaakt in css. Deze astronauten kan je bekijken in een carousel."
+      },
+      {
+        "type": "text",
+        "content": "Ik heb geleerd om mijn plek te vinden binnen een developer team. Ik heb ook geleerd hoe je github branches moet mergen of aanmaken. Dit vond ik eerst wel eng, maar met goede afspraken binnen het team was het wel te doen."
+      },
+      {
+        "type": "image",
+        "src": "./Assests/img/Hackaton.png"
+      },
+      {
+        "type": "link",
+        "href": "https://diegor03.github.io/Hackton_2026_Team_2/team-page",
+        "label": "Link naar website"
+      }
+    ]
+  },
+
+  "api": {
+  "title": "API",
+  "pages": [
+    {
+      "type": "text",
+      "content": "Opdracht: Bedenk een creatieve website dat uit minimaal 1 content API en 2 web API's bestaat en dichtbij jouw persoonlijke interesse ligt."
+    },
+    {
+      "type": "text",
+      "content": "Ik had voor de Animal Crossing API gekozen, omdat ik dit spel vaak speel. Mijn idee was om een dress-up game te maken voor de villagers in Animal Crossing. Met veel moeite in het begin heb ik alle data kunnen ophalen van de API en was het mij gelukt om een dynamische pagina te maken via Astro. Als je dus op een villager van de lijst klikt kom je op een pagina die dezelfde villager laat zien. Verder heb ik ervoor gekozen om de kleding aan te passen met een drag-and-drop API, deze outfit kan je weer opslaan door middel van localStorage."
+    },
+    {
+      "type": "image",
+      "src": "./Assests/img/api-1.png"
+    },
+    {
+      "type": "text",
+      "content": "Verder heb ik me erg gericht op het ontwerp, zodat het goed bij de huisstijl van Animal Crossing past."
+    },
+    {
+      "type": "image",
+      "src": "./Assests/img/api-2.png"
+    },
+    {
+      "type": "text",
+      "content": "Bij dit onderdeel heb ik het meest leren werken in Astro, mijn terminal, JavaScript en uiteraard content- en web API's. In JavaScript heb ik veel functies geleerd zoals JSON.parse(), .map(), .find(), .slice() en .filter(). Deze termen waren eerst lastig om te begrijpen, maar hier begon ik uiteindelijk wel handig in te worden."
+    },
+    {
+      "type": "link",
+      "href": "https://web-dd-api.onrender.com/",
+      "label": "Link naar website"
+        }
+    ]
+},
+
+"hcd": {
+  "title": "Human Centred Design",
+  "pages": [
+    {
+      "type": "text",
+      "content": "Opdracht: Ontwerp voor een specifiek persoon, Darice, een website waarmee zij transcripties kan lezen van een podcast."
+    },
+    {
+      "type": "text",
+      "content": "Ik heb voor Darice een transcriptiewebsite ontworpen. Darice is doof en beleeft video's en podcasts op een andere manier. Zij kan hiermee transcripties lezen in een ontwerp dat aansluit op haar persoonlijke stijl."
+    },
+    {
+      "type": "text",
+      "content": "Door elke week een verschillende versie te testen ben ik uiteindelijk tot een eindversie gekomen waar Darice tevreden mee is. Hieronder zie je de verschillende versies die ik heb getest."
+    },
+    {
+      "type": "image",
+      "src": "./Assests/img/hcd-v1.png"
+    },
+    {
+      "type": "image",
+      "src": "./Assests/img/hcd-v2.png"
+    },
+    {
+      "type": "image",
+      "src": "./Assests/img/hcd-v3.png"
+    },
+    {
+      "type": "image",
+      "src": "./Assests/img/hcd-v4.png"
+    },
+    {
+      "type": "text",
+      "content": "Ik heb geleerd te ontwerpen voor iemand die het web op een aangepaste manier gebruikt en mij in te leven in de ervaring van die persoon. Ook heb ik geleerd om met VTT-bestanden te werken en deze in te laden met JavaScript."
+    },
+    {
+      "type": "link",
+      "href": "https://jacco-mols.github.io/Web-DD_HCD/",
+      "label": "Link naar website"
+    }
+  ]
+},
+
+  "meesterproef": {
+    "title": "Visdeurbel",
+    "pages": [
+      {
+        "type": "text",
+        "content": "Voor de Visdeurbel hebben wij in een groep van vier studenten gewerkt aan het ontwerpen en ontwikkelen van nieuwe visualisaties voor de website. De Visdeurbel is een interactief project waarbij gebruikers kunnen zien wat er onder water gebeurt bij een deurbel in het water en waar verschillende vissoorten en snapshots worden verzameld en getoond. Binnen dit project hebben wij nieuwe manieren bedacht om deze data beter en duidelijker te visualiseren. Elke week kregen we feedback en testmomenten met de originele ontwerpers van de Visdeurbel, Studio Moan. Hierdoor leerden we om ons werk te presenteren aan een opdrachtgever en feedback snel te verwerken in ons product."
+      },
+      {
+        "type": "image",
+        "src": "./Assests/img/visdeurbel.png"
+      },
+      {
+        "type": "text",
+        "content": "Aan het begin van het project lag de focus op het begrijpen van de opdracht en het verkennen van de data die we kregen, zoals CSV bestanden en visuele data van snapshots. We begonnen met brainstormen en het maken van schetsen in Figma, waarna we de taken binnen het team verdeelden. Mijn rol lag vooral bij de visfoto’s en later interactieve onderdelen zoals een spel en visdetails. In deze fase liep ik vooral tegen technische uitdagingen aan bij het werken met CSV data en het filteren en ophalen van informatie met JavaScript. Door hulp van teamgenoten en bronnen zoals MDN en AI heb ik dit uiteindelijk kunnen oplossen en verder kunnen uitbreiden met extra functies zoals een dialog, tooltips en filtering."
+      },
+      {
+        "type": "image",
+        "src": "./Assests/img/vis-1.png"
+      },
+      {
+        "type": "text",
+        "content": "In de tweede en derde week lag de focus meer op interactie en toegankelijkheid van de website. Ik heb onder andere een spel gemaakt waarbij gebruikers vissen moeten raden, waarbij ik rekening heb gehouden met toetsenbordnavigatie en screenreadergebruik. Ook heb ik gewerkt aan het verbeteren van de data verwerking en het tonen van visinformatie, zoals het genereren van willekeurige snapshots en visdetails. Tijdens testmomenten met Studio Moan kregen we feedback dat sommige onderdelen niet duidelijk genoeg waren of niet genoeg uitnodigden tot gebruik. Deze feedback hebben we gebruikt om onze ontwerpen aan te passen en beter te laten aansluiten op de gebruiker."
+      },
+      {
+        "type": "image",
+        "src": "./Assests/img/vis-2.png"
+      },
+      {
+        "type": "text",
+        "content": "In de laatste weken zijn we overgestapt naar het Astro framework, waardoor we beter konden werken met componenten en de structuur van de website overzichtelijker werd. Daarna heb ik mijn onderdelen opnieuw opgebouwd met meer focus op usability en duidelijke interactie. Zo heb ik een vis-detail sectie gemaakt met een popover en later een carousel waarin gebruikers door viskaarten kunnen bladeren. Dit onderdeel is meerdere keren aangepast op basis van feedback van de opdrachtgever, vooral op gebied van hiërarchie, duidelijkheid en visuele structuur. In de laatste versie hebben we gekozen voor een carousel-oplossing waarin gebruikers door kaarten en afbeeldingen kunnen navigeren."
+      },
+      {
+        "type": "image",
+        "src": "./Assests/img/vis-3.png"
+      },
+      {
+        "type": "image",
+        "src": "./Assests/img/vis-4.png"
+      },
+      {
+        "type": "image",
+        "src": "./Assests/img/vis-5.png"
+      },
+      {
+        "type": "text",
+        "content": "Als ik terugkijk op dit project heb ik veel geleerd over samenwerken in een team, werken met een echte opdrachtgever en het snel verwerken van feedback in korte iteraties. Ook heb ik grote stappen gezet in JavaScript, data verwerking en toegankelijkheid. Mijn belangrijkste leerdoel, beter nadenken over usability en toegankelijkheid, heb ik steeds beter kunnen toepassen in mijn werk. Daarnaast ben ik gegroeid in het presenteren van mijn werk aan een opdrachtgever, al is dit nog steeds iets waar ik verder in wil groeien. Ook werken met GitHub, branches en samenwerken in code gaat nu een stuk natuurlijker."
+      }
+    ]
+  },
+
+  "wn1": {
+    "title": "Killian Valkhof",
+    "pages": [
+      {
+        "type": "text",
+        "content": "Aan het begin van deze minor en daarvoor had ik zelf nog geen goed idee waar je nou precies JavaScript, CSS of HTML voor moet gebruiken. Ik vond het heel lastig te zeggen wat de beste manier was om iets te doen in een specifieke taal. Daarom was de eerste Weekly Nerd van Killian Valkhof juist zo fijn. Hij had het erover hoe je HTML en CSS kan gebruiken in plaats van JavaScript, en dit gaf mij eigenlijk wel een heel concreet beeld wat ik nou precies kan doen met CSS."
+      },
+      {
+        "type": "text",
+        "content": "Je kan dus bijvoorbeeld appearance: none; gebruiken in CSS om zelf een input element te gaan stylen. Ook ben ik in deze weekly nerd erachter gekomen wat de pseudo-elementen before en after zijn en dat deze niet werken zonder content: \"\"."
+      },
+      {
+        "type": "text",
+        "content": "Het is ook interessant om te horen hoe je CSS kan toepassen voor een betere UX-design. Zo kan je bijvoorbeeld preferred reduced motion, no preference aanzetten, zodat mensen die dit in de settings hebben mogelijke animaties niet te hoeven zien. Verder vond ik dat Killian heel veel handige tips en trucjes had laten zien in CSS die ik niet op een andere manier had kunnen leren. Wat ik alleen wel jammer vond, is dat ik op dat moment in de minor heel graag meer van javaScript wou leren. En hier heeft Killian het niet heel veel over gehad, wat ik zelf wel jammer vond. Ook had Killian verteld over onderwerpen waar ik zelf al bekend mee was, zoals een hover state en hoe je dit kan toepassen in CSS of een details element in HTML."
+      },
+      {
+        "type": "text",
+        "content": "Wat ik wel interessant vond, is om te horen dat Killian zijn eigen browser had gemaakt, genaamd PolyPane. En dit vond ik heel interessant om te horen en om te zien wat ik nou precies in deze branche zou kunnen worden."
+      },
+      {
+        "type": "text",
+        "content": ""
+      }
+    ]
+  },
+
+  "wn2": {
+    "title": "Peter-Paul Koch",
+    "pages": [
+      {
+        "type": "text",
+        "content": "De tweede weekly nerd was van Peter Paul Koch. En dit ging over browsers en hoe je bijvoorbeeld code in een browser kan reageren. Over het algemeen vond ik deze weekly nerd minder interessant. Ik ben zelf namelijk iemand die het heel leuk vindt om te ontwerpen en met de front-end bezig te zijn. En dit ging voornamelijk over de back-end. Omdat ik zelf ook niet heel geïnteresseerd ben in de back-end, vond ik veel van deze weekly nerd moeilijk te begrijpen."
+      },
+      {
+        "type": "text",
+        "content": "Zo heeft hij heel veel verteld over de accessibility object model een rendering engine, rendering blocking, backwards compatibility en wat de eerste paar browsers waren in geschiedenis. Eigenlijk had ik voor deze weekly nerd nog nooit van deze termen gehoord en snapte ik van veel niet wat ze betekenden."
+      },
+      {
+        "type": "text",
+        "content": "Het was daarom wel interessant om het een keer te horen en te leren wat deze termen nou precies kunnen doen. Zo staat bijvoorbeeld DOM voor Document Object Model. Dit is dus een soort kopie van je HTML waar je JavaScript op kan toepassen. Het Document Object Model verandert ook mee met de veranderingen in JavaScript. Ik vond het ook interessant om te lezen over de geschiedenis van de verschillende browsers, zo had je bijvoorbeeld in 1994 Netscape, waar je voor moest betalen en de browser die het jaar daarna kwam genaamd Internet Explorer."
+      }
+    ]
+  },
+
+  "wn3": {
+    "title": "Robbert Broersma",
+    "pages": [
+      {
+        "type": "text",
+        "content": "Van Robert Borsma hebben we de Weekly Nerd gehad over het maken van formulieren in HTML. Op dit moment was ik ook bezig met het vak browser technology, waar we zelf met gestructureerde HTML een formulier moesten bouwen van de erfbelastingdienst."
+      },
+      {
+        "type": "text",
+        "content": "Daarom was ik eigenlijk heel blij met deze weekly nerd. We hadden heel veel handige tips en tricks gekregen die we konden toepassen in onze eigen formulieren. Zo hebben ze bijvoorbeeld verteld dat het heel belangrijk is om kleurcontrasten te checken, omdat die vaak te subtiel kunnen zijn. Subtiele kleurcontrasten kunnen vaak in daglicht niet gezien worden, wat voor een formulier belangrijk is. Ook is het belangrijk om componenten groot genoeg te houden. Verder gaat het ook over bijvoorbeeld inconsistente navigatiesystemen en dat het duidelijk moet zijn in welke stappen een formulier verstuurd moet worden."
+      },
+      {
+        "type": "text",
+        "content": "Naast het feit dat deze weekly nerd heel nuttig was voor mijn huidige opdracht, vond ik het ook heel interessant om te horen wat nou goede en niet goede manieren zijn om formulieren te bouwen en welke dingen je waarschijnlijk wel of niet moet toepassen. Ik vond het ook heel verrassend om te horen hoe vaak formulieren niet op een goede manier worden gemaakt. Tijdens de spreking was ik eigenlijk heel verbaasd over hoeveel details missen in formulieren die vandaag worden gemaakt."
+      }
+    ]
+  },
+
+  "wn4": {
+    "title": "Rosa",
+    "pages": [
+      {
+        "type": "text",
+        "content": "De weekly nerd Hackers United vond ik persoonlijk een van de mindere interessante sprekingen. Ik ben zelf heel geïnteresseerd in het visuele gedeelte van een website maken. Ook vind ik het leuk om na te denken hoe een gebruiker kan omgaan met het product dat jij maakt."
+      },
+      {
+        "type": "text",
+        "content": "Deze weekly nerd ging juist erg over het werken met hardware en dergelijke technologieën. Zo was er bijvoorbeeld verteld over wat precies hackers zijn. Tot mijn verbazing is er geen concrete betekenis, namelijk een persoon die goed kan omgaan met informatica technologie kan zichzelf al een hacker noemen."
+      },
+      {
+        "type": "text",
+        "content": "Wat ik wel interessant vond is dat ze vertelden over wat een server nou precies is. In het kort is een server eigenlijk een computer met je HTML-bestand waar je vanuit een andere plek weer bij kan. Technisch gezien is je server dus een computer plus een router. Verder vond ik het ook wel leuk om te horen over haar persoonlijke evenementen waar ze haar studenten laat concurreren om wie een beter hardwareproduct kan ontwerpen."
+      }
+    ]
+  },
+
+  "wn5": {
+    "title": "Nils Binder",
+    "pages": [
+      {
+        "type": "text",
+        "content": "The Weekly Nerd van Nils Binder vond ik zelf wel interessant. Hij heeft het even gehad over het bedrijf waar hij in dienst is, genaamd 9lements.com, en heeft dus verteld over wat zij doen. Dus bijvoorbeeld communication design, product development of webdevelopment. Verder heeft hij het ook gehad over een CSS conference day. Dat bestond uit een aantal CSS-specialisten die verschillende werkstukken lieten zien die alleen maar in CSS gemaakt zijn."
+      },
+      {
+        "type": "text",
+        "content": "Hij heeft ook een stukje geschiedenis verteld over hoe mensen vroeger websites maakten. Mensen gebruikten bijvoorbeeld vroeger veel Photoshop om websites te maken, waardoor veel websites erg op elkaar leken. Photoshop boodt namelijk niet veel verschillende opties voor layouts. Tegenwoordig gebruiken we veel Figma. Het interface hiervan is heel duidelijk en heel accessible voor veel mensen. Figma gebruikt daarnaast ook veel flex styling options, zoals flex wraps en justify-content."
+      },
+      {
+        "type": "text",
+        "content": "Hij heeft ook veel over CSS verteld. Over wat goede tips en trucjes zijn. Bijvoorbeeld als je met oneven afstanden werkt, is het niet handig om pixels te gebruiken, maar juist delen. Dus een derde, twee derde, dus bijvoorbeeld 1fr of 2fr, etc. Ik vond deze kleine tips over CSS heel handig en had hier graag meer over willen horen. Hij heeft ook bijvoorbeeld de CSS uitgelegd van een animatie die hij heeft gemaakt op één van zijn websites. Deze animatie bestond uit een afbeelding die in 3D op de X-as rond draaide. En dit heeft hij dus gedaan met animation: stop-motion. Ik vond persoonlijk dat de spreker het iets te veel over zijn bedrijf en de CSS-conference had verteld en had graag meer willen horen over deze CSS-trucjes."
+      }
+    ]
+  },
+
+  "wn6": {
+    "title": "Johan Huijkman",
+    "pages": [
+      {
+        "type": "text",
+        "content": "De weekly nerd accessibility van Johan vond ik zelf heel erg interessant om mee te maken. Bij deze spreking had hij het over hoe toegankelijk screenreaders nou precies zijn voor mensen die op een aangepaste manier een website moeten gebruiken. Hij heeft bijvoorbeeld verteld dat een screenreader een hele monotone stem heeft en vaak ook te snel iets kan voorlezen als de alt-teksten niet goed kloppen, wat ik ook in eigen ervaring heb meegemaakt."
+      },
+      {
+        "type": "text",
+        "content": "Wat hij ook heeft verteld, wat ik zelf heel interessant vond, was dat afbeeldingen niet per se alt-teksten nodig hebben, maar wel altijd een alt-attribuut moeten hebben. Verder heeft hij ook verteld dat screenreaders veel functionaliteiten hebben ingebouwd die je zelf als frontender goed moet leren gebruiken in je eigen website."
+      },
+      {
+        "type": "text",
+        "content": "Verder in de spreking heeft hij video's laten zien van mensen die speciale mentale of fysieke omstandigheden hebben en dus het web op een aangepaste manier moeten gebruiken. Zo heeft hij bijvoorbeeld laten zien dat Martijn, een slechtziend persoon, maar 20% kan zien. In de video werd er getoond dat Martijn websites gebruikt door middel van 200 keer in te zoomen. Dit zorgt ervoor dat veel websites, zoals bijvoorbeeld Intertoys, heel lastig te gebruiken zijn en eigenlijk geen fijne ervaring aanbieden voor zo'n persoon. Wat je bijvoorbeeld wel kan doen om zijn ervaring te verbeteren, is door een duidelijk contrast te maken, gerelateerde informatie bij elkaar te zetten en visuele indicatoren aan te maken, zoals een focusrand."
+      },
+      {
+        "type": "text",
+        "content": "Hij heeft ook een video laten zien van Naduah. Ze heeft mobiliteitsproblemen en prikkelgevoeligheid, waardoor ze last heeft van websites die heel veel kleuren bevatten, hierdoor krijgt ze ook last van migraine. Ook is klikken voor haar pijnlijk en kan ze lastig websites gebruiken met veel pop-ups en informatie die haar lastig valt. Bij haar zou dus een rustige layout en rustige vormgeving van toepassing kunnen zijn."
+      },
+      {
+        "type": "text",
+        "content": "Ik vond deze video's super interessant om te zien en te realiseren hoe mensen nou deze websites anders gebruiken dan wij doen. En ik denk dat ik dit in komende projecten vaak in gedachten zou houden en ook mijn ontwerp daarop toe zou passen."
+      }
+    ]
+  },
+
+  "wn7": {
+    "title": "The Web You Want",
+    "pages": [
+      {
+        "type": "text",
+        "content": "De volgende Weekly Nerd was The Web You Want. Dit is een evenement dat bestaat uit een aantal mensen die de mogelijkheid kregen om een presentatie te geven over wat zij verstaan onder The Web You Want. Over het algemeen gaat het dus over wat mensen missen van het web en wat ze dus veel liever nog willen toevoegen. De eerste spreker van dit evenement vond ik zelf heel interessant en veel sterke punten naar voren brengen."
+      },
+      {
+        "type": "text",
+        "content": "Zo had ze het over dat de evolutie van social media eigenlijk je privacy aan het verpesten is. Dit komt door onder andere TikTok, X, Palantir, Meta en nog veel meer. Ze had ook verteld dat het heel belangrijk is om na te denken over jouw eigen standaarden wanneer je aan het innoveren bent. Dit is belangrijk, want zodra jij als ontwerper iets nieuws maakt, kan het natuurlijk ook effect hebben op de algemene markt, mensen hun privacy en dus het web."
+      },
+      {
+        "type": "text",
+        "content": "Ik ben het zelf heel erg mee eens met de meningen die zij allemaal naar voren bracht en vind het zelf ook belangrijk dat mensen nog steeds hun privacy kunnen behouden. Zij werkt bij FutureLab. En FutureLab is dus bezig met het ontwerpen van de toekomst van social media. Een van de dingen waar zij veel achter kwamen, was dat het belangrijk is om eerst te denken aan het interface voordat je gaat denken aan het algoritme. Verder heeft ze ook verteld over bijvoorbeeld alternatieve social media-platforms die ook wel interessant leken."
+      },
+      {
+        "type": "text",
+        "content": "Een ander persoon van de Web you want die ik heel interessant vond, was Niels LeenHeer. Hij voelde zich heel erg geïnspireerd door klokken en wat voor verschillende klokken er nou precies zijn. Uit zijn onderzoek had hij een digitaal scherm gevonden met een ronde vorm. Deze vond hij perfect voor zijn project en had hiermee ook een klok op ontworpen. Wat zijn spreking over klokken zo interessant maakte, is dat hij veel functies en animaties had toegevoegd die de klok heel erg speels maakten. Zo heeft hij bijvoorbeeld een animatie toegevoegd dat de wijzers van de klok naar de onderkant van de klok vallen wanneer je de klok fysiek schudt."
+      },
+      {
+        "type": "text",
+        "content": "Uiteraard was hij verder gegaan op het idee om aparte klokken te ontwerpen en is hij de uitdaging aangegaan om een klok te maken op een oscilloscoop. In zijn proces vertelde hij dat hij een oscilloscoop per ongeluk in de fik had gevlogen omdat hij zoveel CSS had geschreven. Wat hij verder ook heeft gedaan, is om het spel Doom en andere applicaties die alleen maar in CSS zijn gemaakt, toe te passen op een oscilloscoop. En tot mijn verbazing had hij al deze creaties ook toegepast op een laser."
+      }
+    ]
+  },
+
+  "wn8": {
+    "title": "Hans de Zwart",
+    "pages": [
+      {
+        "type": "text",
+        "content": "Tijdens deze Weekly Nerd ging het over privacy en de vraag ‘heb je niks te verbergen?’. De sprekers legden uit dat privacy niet alleen gaat over dingen verbergen, maar juist over controle hebben over je eigen gegevens en gedrag. Privacy werd uitgelegd als een individueel recht, maar ook als een sociaal en democratisch concept."
+      },
+      {
+        "type": "text",
+        "content": "Als individueel recht geeft het je de ruimte om jezelf te kunnen zijn zonder constant bekeken te worden. Als sociaal recht gaat het erom dat je je in verschillende contexten anders mag gedragen, zoals online, bij vrienden of in familiekringen. En als democratische noodzaak voorkomt het dat je gemanipuleerd wordt door systemen of andere partijen."
+      },
+      {
+        "type": "text",
+        "content": "Daarnaast werd het idee van contextuele integriteit uitgelegd, wat betekent dat informatie niet zomaar gedeeld mag worden met partijen waar je dat niet van zou verwachten. Privacy draait dus vooral om controle over je eigen data en wat er met die data gebeurt. Ook kwam privacywetgeving zoals de AVG aan bod, waarin wordt uitgelegd hoe met persoonsgegevens moet worden omgegaan."
+      },
+      {
+        "type": "text",
+        "content": "Verder ging het over rechten zoals inzage, correctie, vergetelheid en dataportabiliteit. Ook werd besproken dat data niet alleen een asset is, maar ook een verantwoordelijkheid. Daarom is dataminimalisatie belangrijk en worden vaak technieken zoals cryptografie en andere privacyvriendelijke oplossingen gebruikt."
+      },
+      {
+        "type": "text",
+        "content": ""
+      }
+    ]
+  },
+
+  "wn9": {
+    "title": "Q42",
+    "pages": [
+      {
+        "type": "text",
+        "content": "Voor een bedrijfsbezoek zijn we langs geweest bij Q42 om een kijkje te nemen in het werkveld. We kregen daar een presentatie over hoe zij werken en welke projecten zij maken. Q42 maakt verschillende digitale producten zoals websites, apps en soms zelfs games. Een groot deel van de presentatie ging over design systems en hoe zij deze gebruiken binnen projecten voor grote klanten, zoals Greenchoice."
+      },
+      {
+        "type": "text",
+        "content": "Ze vertelden onder andere over interdisciplinair samenwerken, werken met grote klanten, AI en toegankelijkheid. Wat ik interessant vond was hun eigen variant op Atomic Design. In plaats van atoms, molecules en organisms werken zij met foundations, core components, composites en screens. Ook werd duidelijk dat grote projecten vaak meer tijd kosten doordat er veel stakeholders betrokken zijn. Daarom vinden zij het belangrijk om alles goed te documenteren zodat voor iedereen duidelijk is hoe onderdelen gebruikt moeten worden."
+      },
+      {
+        "type": "text",
+        "content": "Daarnaast vertelden ze hoe zij tegen AI aankijken. Volgens hen is AI handig voor bijvoorbeeld documentatie of andere minder leuke taken, maar moet je het niet gebruiken voor onderdelen waar creativiteit voor nodig is. Ook werd er veel aandacht besteed aan toegankelijkheid. Hun visie was dat toegankelijkheid geen extra optie moet zijn, maar standaard onderdeel van een product."
+      },
+      {
+        "type": "text",
+        "content": "Ik vond het interessant om een keer bij een groot bedrijf langs te gaan en te zien hoe zij werken aan projecten. Wel merkte ik dat Q42 voor mijn persoonlijke smaak erg groot en breed is. Ze werken aan veel verschillende soorten projecten en hebben veel mensen in dienst. Zelf denk ik dat een iets kleiner bedrijf beter bij mij zou passen. Toch vond ik het waardevol om te zien hoe een groot bedrijf te werk gaat en welke uitdagingen daarbij komen kijken."
+      },
+      {
+        "type": "text",
+        "content": ""
+      }
+    ]
+  },
+
+  "wn10": {
+    "title": "De Voorhoede",
+    "pages": [
+      {
+        "type": "text",
+        "content": "Deze Weekly Nerd bestond uit drie verschillende sprekers. Van de drie vond ik de eerste spreker het interessantst. Zij werkte als front-end developer en vertelde dat het werk van een frontender veel meer is dan alleen programmeren. Zo moet je slimme oplossingen bedenken voor designproblemen, omgaan met onduidelijke opdrachten van klanten en technische onderwerpen kunnen uitleggen aan mensen die hier weinig verstand van hebben."
+      },
+      {
+        "type": "text",
+        "content": "Ook liet ze een project voor DGTL zien waarbij ze onder andere CSS blend modes had gebruikt. Daarnaast vertelde ze over minder bekende HTML-elementen, zoals het Ruby-element voor Japanse tekst. Deze spreking gaf mij een goed beeld van hoe het werk van een front-end developer er in de praktijk uitziet."
+      },
+      {
+        "type": "text",
+        "content": "De tweede spreker was een accessibility specialist en vertelde veel over toegankelijkheid en design systems. Hij liet zien hoe kleine details, zoals een slecht zichtbaar vinkje, een grote impact kunnen hebben op gebruikers. Hoewel ik toegankelijkheid een belangrijk onderwerp vind, vond ik deze presentatie persoonlijk minder interessant."
+      },
+      {
+        "type": "text",
+        "content": "Een deel van de uitleg was vrij technisch en bleef daardoor minder goed hangen. De derde spreker vertelde over Offline First en Progressive Web Apps. Hij legde uit hoe websites ook zonder internetverbinding kunnen blijven werken door gegevens lokaal op te slaan en later te synchroniseren."
+      },
+      {
+        "type": "text",
+        "content": "Hoewel ik het interessant vond om te horen hoe dit werkt, vond ik dit ook het lastigste onderdeel van de middag. Er kwamen veel technische en meer back-end gerelateerde onderwerpen voorbij, waardoor ik niet alles goed kon volgen."
+      },
+      {
+        "type": "text",
+        "content": "Toch vond ik het waardevol om een beter beeld te krijgen van hoe moderne webapplicaties omgaan met offline gebruik. Over het algemeen bleef vooral de eerste spreker mij bij, omdat haar verhaal het beste aansloot bij mijn interesse in front-end development en design."
+      },
+      {
+        "type": "text",
+        "content": ""
+      }
+    ]
+  },
+
+  "wn11": {
+    "title": "The web you want vol. 2",
+    "pages": [
+      {
+        "type": "text",
+        "content": "De eerste spreker, Leonie Watson, sprak over toegankelijkheid voor blinde en slechtziende gebruikers en haar ervaringen met AI. Zij gaf aan dat veel documenten, zoals officiële Europese Unie documenten, nog steeds slecht toegankelijk zijn omdat ze geen duidelijke headings bevatten. Ook liet ze zien dat webshops vaak onduidelijke beschrijvingen hebben voor screenreaders, waardoor het lastig is om producten goed te begrijpen of te vinden."
+      },
+      {
+        "type": "text",
+        "content": "Leonie vertelde dat AI voor haar steeds belangrijker wordt, omdat het beter afbeeldingen kan beschrijven dan een standaard screenreader. Ze gebruikt AI zelfs om real-life objecten te herkennen en om producten te vinden tijdens het online shoppen. In die situaties werkt AI als een soort assistent die haar helpt om dingen te doen die anders lastig zouden zijn."
+      },
+      {
+        "type": "text",
+        "content": "Ze vertelde dat ongeveer 20% van de afbeeldingen op het web geen goede alt-tekst heeft, waardoor veel onzekerheid en extra werk ontstaat voor gebruikers die afhankelijk zijn van hulpmiddelen. Haar boodschap was dat elke fout op het web extra werk creëert voor iemand anders en dat designers dit zoveel mogelijk moeten voorkomen."
+      },
+      {
+        "type": "text",
+        "content": "De tweede spreker, Cyd Stumpel, ging in op CSS motion en toegankelijk design. Zij liet zien hoe animaties op een toegankelijke manier gebruikt kunnen worden en hoe slechte of geïmiteerde AI-code kan zorgen voor een minder goede gebruikerservaring."
+      },
+      {
+        "type": "text",
+        "content": ""
+      }
+    ]
+  },
+
+  "leerdoelen": {
+    "title": "Mijn leerdoelen",
+    "pages": [
+      {
+        "type": "text",
+        "content": "Leerdoel 1: Ik wil graag goed worden in het presenteren van het werk dat ik binnen mijn groepje heb gemaakt aan de opdrachtgever en/of de klant."
+      },
+      {
+        "type": "text",
+        "content": "Leerdoel 2: Beter worden in het nadenken over de toegankelijkheid van de website, dus bijvoorbeeld de navigatie, contrast of responsiveness. Ik denk dat ik hierdoor beter word in het ontwerpen voor de gebruiker."
+      },
+      {
+        "type": "text",
+        "content": "Leerdoel 3: Vaker initiatief nemen om in Github te werken om meer ervaring op te doen met branches, Github repositories en mergen."
+      }
+    ]
+  }
+}
