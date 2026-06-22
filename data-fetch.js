@@ -1,5 +1,6 @@
 async function jsonContent() {
-    const response = await fetch("/data/data.JSON");
+    const jsonUrl = new URL("./data/data.json", window.location.href);
+    const response = await fetch(jsonUrl);
     const data = await response.json();
 
     const bookElements = document.querySelectorAll(".book");
